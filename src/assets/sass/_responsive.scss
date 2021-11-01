@@ -1,0 +1,45 @@
+@media only screen and (max-width: 780px) {
+    #header{
+        .header{
+            padding: 10px;
+            .flex-header{
+                .col-head{
+                    .title-brand{
+                        margin-top: 0rem;
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                }
+            }
+        }
+        .small-header{
+            display: none;
+        }
+    }
+    .home{
+        .box-v1{
+            .item-carousel{
+                img{
+                    width: 100%;
+                }
+                .content-item{
+                    top: 20%;
+                    h1{
+                        font-size: 30px;
+                    }
+                    button{
+                        padding: 15px 30px;
+                        background-color: $secondary;
+                        color: $primary;
+                        font-size: 12px;
+                        font-family: $poppins;
+                        border: none;
+                        font-weight: 700;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
