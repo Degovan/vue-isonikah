@@ -14,7 +14,6 @@ Vue.component('fa', FontAwesomeIcon);
 
 require('./assets/sass/main.css');
 require('./assets/css/animate.css');
-
 Vue.config.productionTip = false
 
 new Vue({
