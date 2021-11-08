@@ -1,0 +1,80 @@
+#footer{
+    margin-top: 5rem;
+    .footer{
+        height: 60vh;
+        background-color: $primary;
+        padding: 30px;
+        .footer-body{
+            margin-top: 3rem;
+            .flex-footer{
+                display: flex;
+                .col-footer{
+                    font-family: $poppins;
+                    padding: 10px;
+                    img{
+                        max-width: 180px;
+                    }
+                    p{
+                        color: #555555;
+                        word-break: break-all;
+                    }
+                  
+                    .menu-footer{
+                        margin-top: 5rem;
+                        h2{
+                            color: $secondary;
+                            font-size: 20px;
+                        }
+                        a{
+                            display: block;
+                            color: #555555;
+                        }
+                        .menu-social{
+                            .item{
+                                background: #555555;
+                                padding: 8px 13px;
+                                border-radius: 8px;
+                                margin: 5px;
+                                display: inline-block;
+                                a{
+                                    color: #CDBBA7;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(1){
+                        max-width: 300px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .small-footer{
+        padding: 20px;
+        text-align: center;
+        background: #302F37;
+        color: $secondary;
+        font-family: $poppins;
+    }
+}
+
+
+@media only screen and (max-width: 780px) {
+    #footer{
+        height: auto;
+        .footer{
+            height: auto;
+            .footer-body{
+                .flex-footer{
+                    display: block;
+                 .col-footer{
+                    &:nth-child(1){
+                        margin-left: 0;
+                    }
+                 }
+                }
+            }
+        }
+    }
+}

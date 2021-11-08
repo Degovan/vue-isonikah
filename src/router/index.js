@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Vendor from '../views/Vendor.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -12,6 +12,12 @@ const routes = [
     component: Home,
     meta: { title: 'IsoNikah - Beranda'}
     
+  },
+  {
+    path: '/vendor',
+    name: 'Vendor',
+    component: Vendor,
+    meta: { title: 'Isonikah - Vendor' }
   },
   {
     path: '/about',

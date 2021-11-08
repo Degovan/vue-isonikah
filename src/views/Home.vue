@@ -2,7 +2,7 @@
   <div class="home">
     <Header />
         <!-- ini adalah bagian box 1 -->
-    <div class="box-v1">
+    <div class="box-p1">
       <carousel
         autoplayHoverPause="true"
         :items="1"
@@ -54,7 +54,7 @@
 
 
         <!-- ini adalah bagian box 2 -->
-    <div class="box-v2">
+    <div class="box-p2">
       <div class="container">
         <div class="option-menu-box">
           <h1>Vendor Terbaru</h1>
@@ -66,21 +66,7 @@
             :dots="true"
             :navText="['','']"
             :loop="true"
-            :responsive="{
-              0:{ items: 1, nav: false },
-              1440:{ 
-                items: 3, 
-                nav: true,
-              },
-              1024:{ 
-                items: 3, 
-                nav: true,
-              },
-               768:{ 
-                items: 2, 
-                nav: true,
-              },
-            }"
+            :responsive="{ 0:{items: 1, nav: false}, 1440:{items: 3, nav: true}, 1024:{items: 3, nav: true}, 780:{items: 3, nav: true}}"
           >
             <div class="card">
               <img src="../assets/img/makanan.jpg" alt="" />
@@ -169,7 +155,7 @@
 
 
     <!-- ini adalah bagian box 3 -->
-    <div class="box-v3">
+    <div class="box-p3">
       <div class="container">
          <div class="option-menu-box">
         <h1>Promosi & Acara</h1>
@@ -181,7 +167,7 @@
         :margin="10"
         :dots="true"
         :navText="['','']"
-        :responsive="{ 0:{items: 1, nav: false}, 1440:{items: 3, nav: true}, 780:{items: 2, nav: false},}"
+        :responsive="{ 0:{items: 1, nav: false}, 1440:{items: 3, nav: true}, 1024:{items: 3, nav: true}, 780:{items: 3, nav: true}}"
         >
         <div class="card">
              <!-- bagian image card -->
@@ -335,16 +321,147 @@
              </div>
         </div>   
         </carousel>
+         <div style="height: 100px"></div>
       </div>
       </div>
     </div>
     <!-- akhir dari box 3 -->
+
+    <!-- ini adalah bagian box 4 -->
+    <div class="box-p4">
+      <div class="container">
+         <div class="option-menu-box">
+        <h1>Kategori</h1>
+        <router-link to="" class="showall">Lihat semua</router-link>
+      </div>
+      <div class="wrapper-card">
+        <carousel
+        :items="3"
+        :margin="20"
+        :responsive="{ 0:{items: 1, nav: false}, 1440:{items: 3, nav: true}, 1024:{items: 3, nav: true}, 780:{items: 3, nav: true}}"
+        :navText="['','']"        
+        >
+          <div class="card">
+            <img src="../assets/img/kategori-1.jpg" alt="">
+            <div class="content-card">
+                <h2>Makanan & Minuman</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/img/kategori-2.jpg" alt="">
+            <div class="content-card">
+                <h2>Make up</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/img/kategori-3.jpg" alt="">
+            <div class="content-card">
+                <h2>Baju Adat</h2>
+            </div>
+          </div>
+             <div class="card">
+            <img src="../assets/img/kategori-1.jpg" alt="">
+            <div class="content-card">
+                <h2>Makanan & Minuman</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/img/kategori-2.jpg" alt="">
+            <div class="content-card">
+                <h2>Make up</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/img/kategori-3.jpg" alt="">
+            <div class="content-card">
+                <h2>Baju Adat</h2>
+            </div>
+          </div>
+        </carousel>
+         <div style="height: 50px"></div>
+      </div>
+      </div>
+    </div>
+    <!-- akhir dari box 4 -->
+
+    <!-- ini adalah bagian box 5 -->
+
+    <div class="box-p5">
+      <div class="container">
+          <div class="title-box">
+        <h1>Apa kata mereka</h1>    
+      </div>
+      <div class="wrapper-rate">
+        <carousel
+        nav="false"
+        items="1"
+        autoplay="true"
+        >
+        <!-- bagian rate -->
+          <div class="rate-box">
+          <div class="avatar-box">
+            <div class="avatar-profile">
+              <div class="col-avatar">
+                 <img src="../assets/img/women1.jpg" alt="">  
+              </div>
+              <div class="col-avatar">
+                <h2>Nissa Sabyan</h2>
+                <p>Vendor Suplier</p>
+              </div>
+              <div class="col-avatar">
+                <div class="rate-star">
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-rate">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, doloribus impedit quisquam eius qui eaque hic vel, nam ipsum sequi beatae, corporis delectus deleniti! Debitis, fugiat. Quidem neque voluptate aliquam repudiandae, numquam illo iste, labore maiores nisi impedit reiciendis sint nam exercitationem, pariatur saepe. Placeat ratione dolorem iste veniam recusandae neque tempore! Mollitia voluptatum quas ea, et ducimus culpa.</p>
+          </div>
+           <div class="height"></div>
+        </div>
+          <div class="rate-box">
+          <div class="avatar-box">
+            <div class="avatar-profile">
+              <div class="col-avatar">
+                 <img src="../assets/img/men1.jpg" alt="">  
+              </div>
+              <div class="col-avatar">
+                <h2>Irsyad</h2>
+                <p>Client Wedding</p>
+              </div>
+              <div class="col-avatar">
+                <div class="rate-star">
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                <span class="star"><fa :icon="['fas','star']" /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-rate">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, doloribus impedit quisquam eius qui eaque hic vel, nam ipsum sequi beatae, corporis delectus deleniti! Debitis, fugiat. Quidem neque voluptate aliquam repudiandae, numquam illo iste, labore maiores nisi impedit reiciendis sint nam exercitationem, pariatur saepe. Placeat ratione dolorem iste veniam recusandae neque tempore! Mollitia voluptatum quas ea, et ducimus culpa.</p>
+          </div>
+           <div class="height"></div>
+        </div>
+        </carousel>
+      </div>
+      </div>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 import carousel from "vue-owl-carousel";
 
 const imgPrev =  '<img src="../assets/img/arrow-left.png" />';
@@ -354,6 +471,7 @@ export default {
   name: "Home",
   components: {
     Header,
+    Footer,
     carousel,
   },
 };

@@ -39,7 +39,7 @@
         <a href="javascript:void(0)"><fa :icon="['fas', 'times']" /></a>
       </div>
       <div class="menu-bar">
-        <router-link to="">Vendor</router-link>
+        <router-link to="/vendor">Vendor</router-link>
         <router-link to="">Undangan Online</router-link>
         <router-link to="">Paket Spesial</router-link>
         <router-link to="">Promosi & Acara</router-link>
@@ -61,14 +61,14 @@ export default {
     barVisible: function () {
       document.querySelector(".small-header").style.display = "block";
       document.querySelector(".small-header").style.animation =
-        "bounceInRight 1s cubic-bezier(0.33, 0.67, 0.83, 0.67)";
+        "slideInRight 0.2s cubic-bezier(0.33, 0.67, 0.83, 0.67)";
     },
     barHide: function () {
       document.querySelector(".small-header").style.animation =
-        "bounceOutRight 1s cubic-bezier(0.33, 0.67, 0.83, 0.67)";
+        "slideOutRight 0.5s cubic-bezier(0.33, 0.67, 0.83, 0.67)";
       setTimeout(function () {
         document.querySelector(".small-header").style.display = "none";
-      }, 980);
+      }, 480);
     },
      searchVisible: function () {
       document.querySelector("#searchbox").style.display = "block";

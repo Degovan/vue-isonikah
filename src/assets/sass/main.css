@@ -1,39 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
-* {
-  margin: 0 auto;
-  padding: 0 auto;
-  user-select: none;
-  -webkit-font-smoothing: antialiased;
-}
-
-.closebar {
-  display: none;
-}
-
-input {
-  -webkit-tap-highlight-color: transparent;
-  outline: none;
-}
-
-button {
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  outline: none;
-}
-
-a {
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  outline: none;
-}
-
-.container {
-  max-width: 1200px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 #header .header {
   background-color: #242329;
   box-sizing: border-box;
@@ -132,7 +97,118 @@ a {
   display: none;
 }
 
-.home .box-v1 .owl-dots {
+#footer {
+  margin-top: 5rem;
+}
+#footer .footer {
+  height: 60vh;
+  background-color: #242329;
+  padding: 30px;
+}
+#footer .footer .footer-body {
+  margin-top: 3rem;
+}
+#footer .footer .footer-body .flex-footer {
+  display: flex;
+}
+#footer .footer .footer-body .flex-footer .col-footer {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+#footer .footer .footer-body .flex-footer .col-footer img {
+  max-width: 180px;
+}
+#footer .footer .footer-body .flex-footer .col-footer p {
+  color: #555555;
+  word-break: break-all;
+}
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer {
+  margin-top: 5rem;
+}
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer h2 {
+  color: #F5C6A5;
+  font-size: 20px;
+}
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer a {
+  display: block;
+  color: #555555;
+}
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer .menu-social .item {
+  background: #555555;
+  padding: 8px 13px;
+  border-radius: 8px;
+  margin: 5px;
+  display: inline-block;
+}
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer .menu-social .item a {
+  color: #CDBBA7;
+}
+#footer .footer .footer-body .flex-footer .col-footer:nth-child(1) {
+  max-width: 300px;
+  width: 100%;
+}
+#footer .small-footer {
+  padding: 20px;
+  text-align: center;
+  background: #302F37;
+  color: #F5C6A5;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media only screen and (max-width: 780px) {
+  #footer {
+    height: auto;
+  }
+  #footer .footer {
+    height: auto;
+  }
+  #footer .footer .footer-body .flex-footer {
+    display: block;
+  }
+  #footer .footer .footer-body .flex-footer .col-footer:nth-child(1) {
+    margin-left: 0;
+  }
+}
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.closebar {
+  display: none;
+}
+
+input {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home {
+  overflow: auto;
+  height: 100vh;
+}
+.home .box-p1 .owl-dots {
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -141,10 +217,10 @@ a {
   bottom: 5rem;
   position: absolute;
 }
-.home .box-v1 .owl-dots button.owl-dot span {
+.home .box-p1 .owl-dots button.owl-dot span {
   visibility: hidden;
 }
-.home .box-v1 .owl-dots button.owl-dot {
+.home .box-p1 .owl-dots button.owl-dot {
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -153,12 +229,12 @@ a {
   transition: 0.8s cubic-bezier(0.33, 0.67, 0.83, 0.67);
   margin: 0 3px;
 }
-.home .box-v1 .owl-dots button.owl-dot.active {
+.home .box-p1 .owl-dots button.owl-dot.active {
   width: 100px;
   height: 15px;
   background-color: #fff;
 }
-.home .box-v1 .owl-item.active .item-carousel .content-item h1 {
+.home .box-p1 .owl-item.active .item-carousel .content-item h1 {
   -webkit-animation-duration: zoomInUp;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -166,7 +242,7 @@ a {
   animation-name: zoomInUp;
   animation-delay: 0.3s;
 }
-.home .box-v1 .owl-item.active .item-carousel .content-item button {
+.home .box-p1 .owl-item.active .item-carousel .content-item button {
   -webkit-animation-duration: 2s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -174,17 +250,17 @@ a {
   animation-name: bounceInUp;
   animation-delay: 0.3s;
 }
-.home .box-v1 .item-carousel {
+.home .box-p1 .item-carousel {
   width: 100%;
   background-position: center;
   background-size: cover;
   height: 80vh;
   box-sizing: border-box;
 }
-.home .box-v1 .item-carousel img {
+.home .box-p1 .item-carousel img {
   filter: brightness(50%);
 }
-.home .box-v1 .item-carousel .content-item {
+.home .box-p1 .item-carousel .content-item {
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -194,7 +270,7 @@ a {
   text-align: center;
   position: absolute;
 }
-.home .box-v1 .item-carousel .content-item h1 {
+.home .box-p1 .item-carousel .content-item h1 {
   font-size: 48px;
   max-width: 700px;
   box-sizing: border-box;
@@ -202,7 +278,7 @@ a {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #fff;
 }
-.home .box-v1 .item-carousel .content-item button {
+.home .box-p1 .item-carousel .content-item button {
   padding: 15px 30px;
   background-color: #F5C6A5;
   color: #242329;
@@ -211,35 +287,35 @@ a {
   font-weight: 700;
   border-radius: 8px;
 }
-.home .box-v2 {
+.home .box-p2 {
   background-color: #242329;
   padding: 20px;
   box-sizing: border-box;
 }
-.home .box-v2 .option-menu-box {
+.home .box-p2 .option-menu-box {
   margin-top: 3rem;
 }
-.home .box-v2 .option-menu-box h1 {
+.home .box-p2 .option-menu-box h1 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #F5C6A5;
 }
-.home .box-v2 .option-menu-box .showall {
+.home .box-p2 .option-menu-box .showall {
   float: right;
   text-decoration: none;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #F5C6A5;
   margin-top: -2rem;
 }
-.home .box-v2 .wrapper-card {
+.home .box-p2 .wrapper-card {
   margin-top: 2rem;
 }
-.home .box-v2 .wrapper-card .owl-dots {
+.home .box-p2 .wrapper-card .owl-dots {
   margin-top: 4rem;
 }
-.home .box-v2 .wrapper-card .owl-dots button.owl-dot span {
+.home .box-p2 .wrapper-card .owl-dots button.owl-dot span {
   visibility: hidden;
 }
-.home .box-v2 .wrapper-card .owl-dots button.owl-dot {
+.home .box-p2 .wrapper-card .owl-dots button.owl-dot {
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -248,17 +324,17 @@ a {
   transition: 0.8s cubic-bezier(0.33, 0.67, 0.83, 0.67);
   margin: 0 3px;
 }
-.home .box-v2 .wrapper-card .owl-dots button.owl-dot.active {
+.home .box-p2 .wrapper-card .owl-dots button.owl-dot.active {
   width: 15px;
   height: 15px;
   background-color: #F5C6A5;
 }
-.home .box-v2 .wrapper-card .owl-nav {
+.home .box-p2 .wrapper-card .owl-nav {
   width: 100%;
   top: 8rem;
   position: absolute;
 }
-.home .box-v2 .wrapper-card .owl-nav .owl-prev {
+.home .box-p2 .wrapper-card .owl-nav .owl-prev {
   font-size: 20px;
   padding: 20px;
   width: 30px;
@@ -266,13 +342,13 @@ a {
   transition: 0.3s ease-in;
   border-radius: 50%;
   background-image: url("../img/arrow-left.png");
-  margin-left: -8rem;
+  margin-left: -2%;
   float: left;
 }
-.home .box-v2 .wrapper-card .owl-nav .owl-prev:active {
+.home .box-p2 .wrapper-card .owl-nav .owl-prev:active {
   transform: scale(0.9);
 }
-.home .box-v2 .wrapper-card .owl-nav .owl-next {
+.home .box-p2 .wrapper-card .owl-nav .owl-next {
   font-size: 20px;
   padding: 20px;
   width: 30px;
@@ -280,71 +356,71 @@ a {
   height: 30px;
   background-image: url("../img/arrow-right.png");
   border-radius: 50%;
-  margin-right: -8rem;
+  margin-right: -2%;
   float: right;
 }
-.home .box-v2 .wrapper-card .owl-nav .owl-next:active {
+.home .box-p2 .wrapper-card .owl-nav .owl-next:active {
   transform: scale(0.9);
 }
-.home .box-v2 .wrapper-card .card {
+.home .box-p2 .wrapper-card .card {
   background-color: #fff;
 }
-.home .box-v2 .wrapper-card .card .content-card {
+.home .box-p2 .wrapper-card .card .content-card {
   padding: 20px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.home .box-v2 .wrapper-card .card .content-card h1 {
+.home .box-p2 .wrapper-card .card .content-card h1 {
   font-size: 20px;
 }
-.home .box-v2 .wrapper-card .card .footer-card {
+.home .box-p2 .wrapper-card .card .footer-card {
   padding: 20px;
 }
-.home .box-v2 .wrapper-card .card .footer-card a {
+.home .box-p2 .wrapper-card .card .footer-card a {
   text-decoration: none;
   padding-right: 20px;
 }
-.home .box-v2 .wrapper-card .card .footer-card a span {
+.home .box-p2 .wrapper-card .card .footer-card a span {
   color: #242329 !important;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0 10px;
 }
-.home .box-v2 .wrapper-card .card .footer-card a:nth-child(1) {
+.home .box-p2 .wrapper-card .card .footer-card a:nth-child(1) {
   color: #000;
 }
-.home .box-v2 .wrapper-card .card .footer-card a:nth-child(2) {
+.home .box-p2 .wrapper-card .card .footer-card a:nth-child(2) {
   color: red;
 }
-.home .box-v2 .wrapper-card .card .footer-card a:nth-child(3) {
+.home .box-p2 .wrapper-card .card .footer-card a:nth-child(3) {
   color: gold;
 }
-.home .box-v3 {
+.home .box-p3 {
   padding: 20px;
 }
-.home .box-v3 .option-menu-box {
+.home .box-p3 .option-menu-box {
   margin-top: 3rem;
 }
-.home .box-v3 .option-menu-box h1 {
+.home .box-p3 .option-menu-box h1 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #242329;
 }
-.home .box-v3 .option-menu-box .showall {
+.home .box-p3 .option-menu-box .showall {
   float: right;
   text-decoration: none;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #242329;
   margin-top: -2rem;
 }
-.home .box-v3 .wrapper-card {
+.home .box-p3 .wrapper-card {
   box-sizing: border-box;
   margin-top: 4rem;
 }
-.home .box-v3 .wrapper-card .owl-dots {
+.home .box-p3 .wrapper-card .owl-dots {
   margin-top: 3rem;
 }
-.home .box-v3 .wrapper-card .owl-dots button.owl-dot span {
+.home .box-p3 .wrapper-card .owl-dots button.owl-dot span {
   visibility: hidden;
 }
-.home .box-v3 .wrapper-card .owl-dots button.owl-dot {
+.home .box-p3 .wrapper-card .owl-dots button.owl-dot {
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -353,17 +429,17 @@ a {
   transition: 0.8s cubic-bezier(0.33, 0.67, 0.83, 0.67);
   margin: 0 3px;
 }
-.home .box-v3 .wrapper-card .owl-dots button.owl-dot.active {
+.home .box-p3 .wrapper-card .owl-dots button.owl-dot.active {
   width: 15px;
   height: 15px;
   background-color: #F5C6A5;
 }
-.home .box-v3 .wrapper-card .owl-nav {
+.home .box-p3 .wrapper-card .owl-nav {
   width: 100%;
   top: 8rem;
   position: absolute;
 }
-.home .box-v3 .wrapper-card .owl-nav .owl-prev {
+.home .box-p3 .wrapper-card .owl-nav .owl-prev {
   font-size: 20px;
   padding: 20px;
   width: 30px;
@@ -372,13 +448,13 @@ a {
   transition: 0.3s ease-in;
   border-radius: 50%;
   background-image: url("../img/arrow-left.png");
-  margin-left: -8rem;
+  margin-left: -2%;
   float: left;
 }
-.home .box-v3 .wrapper-card .owl-nav .owl-prev:active {
+.home .box-p3 .wrapper-card .owl-nav .owl-prev:active {
   transform: scale(0.9);
 }
-.home .box-v3 .wrapper-card .owl-nav .owl-next {
+.home .box-p3 .wrapper-card .owl-nav .owl-next {
   font-size: 20px;
   padding: 20px;
   width: 30px;
@@ -387,35 +463,35 @@ a {
   height: 30px;
   background-image: url("../img/arrow-right.png");
   border-radius: 50%;
-  margin-right: -8rem;
+  margin-right: -2%;
   float: right;
 }
-.home .box-v3 .wrapper-card .owl-nav .owl-next:active {
+.home .box-p3 .wrapper-card .owl-nav .owl-next:active {
   transform: scale(0.9);
 }
-.home .box-v3 .wrapper-card .card {
+.home .box-p3 .wrapper-card .card {
   box-sizing: border-box;
 }
-.home .box-v3 .wrapper-card .card .content-item {
+.home .box-p3 .wrapper-card .card .content-item {
   box-sizing: border-box;
 }
-.home .box-v3 .wrapper-card .card .content-item .flex-card {
+.home .box-p3 .wrapper-card .card .content-item .flex-card {
   box-sizing: border-box;
   display: flex;
 }
-.home .box-v3 .wrapper-card .card .content-item .flex-card .col-card {
+.home .box-p3 .wrapper-card .card .content-item .flex-card .col-card {
   box-sizing: border-box;
   padding: 10px;
   width: 100%;
 }
-.home .box-v3 .wrapper-card .card .content-item .flex-card .col-card h2 {
+.home .box-p3 .wrapper-card .card .content-item .flex-card .col-card h2 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.home .box-v3 .wrapper-card .card .content-item .flex-card .col-card:nth-child(2) {
+.home .box-p3 .wrapper-card .card .content-item .flex-card .col-card:nth-child(2) {
   max-width: 110px;
   text-align: center;
 }
-.home .box-v3 .wrapper-card .card .content-item .flex-card .col-card:nth-child(2) button {
+.home .box-p3 .wrapper-card .card .content-item .flex-card .col-card:nth-child(2) button {
   padding: 10px;
   border: none;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -424,47 +500,232 @@ a {
   font-weight: 500;
   width: 100%;
 }
-.home .box-v3 .wrapper-card .card .content-item .cost {
+.home .box-p3 .wrapper-card .card .content-item .cost {
   padding: 10px;
 }
-.home .box-v3 .wrapper-card .card .content-item .cost h2 {
+.home .box-p3 .wrapper-card .card .content-item .cost h2 {
   font-size: 15px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.home .box-v3 .wrapper-card .card .content-item .event {
+.home .box-p3 .wrapper-card .card .content-item .event {
   padding: 10px;
 }
-.home .box-v3 .wrapper-card .card .content-item .event h2 {
+.home .box-p3 .wrapper-card .card .content-item .event h2 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
 }
-.home .box-v3 .wrapper-card .card .footer-card {
+.home .box-p3 .wrapper-card .card .footer-card {
   padding: 10px;
 }
-.home .box-v3 .wrapper-card .card .footer-card a {
+.home .box-p3 .wrapper-card .card .footer-card a {
   color: #242329;
   width: 100%;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.home .box-v3 .wrapper-card .card .footer-card a span {
+.home .box-p3 .wrapper-card .card .footer-card a span {
   margin: 0 10px;
 }
-.home .box-v3 .wrapper-card .card .footer-card .flex-footer-card {
+.home .box-p3 .wrapper-card .card .footer-card .flex-footer-card {
   display: flex;
 }
-.home .box-v3 .wrapper-card .card .footer-card .flex-footer-card .col-card-ft {
+.home .box-p3 .wrapper-card .card .footer-card .flex-footer-card .col-card-ft {
   width: 100%;
   box-sizing: border-box;
   text-align: left;
 }
+.home .box-p4 {
+  padding: 20px;
+  background-color: #242329;
+}
+.home .box-p4 .option-menu-box {
+  margin-top: 3rem;
+}
+.home .box-p4 .option-menu-box h1 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F5C6A5;
+}
+.home .box-p4 .option-menu-box .showall {
+  float: right;
+  text-decoration: none;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F5C6A5;
+  margin-top: -2rem;
+}
+.home .box-p4 .wrapper-card {
+  margin-top: 4rem;
+  box-sizing: border-box;
+}
+.home .box-p4 .wrapper-card .owl-dots {
+  margin-top: 3rem;
+}
+.home .box-p4 .wrapper-card .owl-dots button.owl-dot span {
+  visibility: hidden;
+}
+.home .box-p4 .wrapper-card .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #dcdcdc;
+  transition: 0.8s cubic-bezier(0.33, 0.67, 0.83, 0.67);
+  margin: 0 3px;
+}
+.home .box-p4 .wrapper-card .owl-dots button.owl-dot.active {
+  width: 15px;
+  height: 15px;
+  background-color: #F5C6A5;
+}
+.home .box-p4 .wrapper-card .owl-nav {
+  width: 100%;
+  top: 4rem;
+  position: absolute;
+}
+.home .box-p4 .wrapper-card .owl-nav .owl-prev {
+  font-size: 20px;
+  padding: 20px;
+  width: 30px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  height: 30px;
+  transition: 0.3s ease-in;
+  border-radius: 50%;
+  background-image: url("../img/arrow-left.png");
+  margin-left: -2%;
+  float: left;
+}
+.home .box-p4 .wrapper-card .owl-nav .owl-prev:active {
+  transform: scale(0.9);
+}
+.home .box-p4 .wrapper-card .owl-nav .owl-next {
+  font-size: 20px;
+  padding: 20px;
+  width: 30px;
+  transition: 0.3s ease-in;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  height: 30px;
+  background-image: url("../img/arrow-right.png");
+  border-radius: 50%;
+  margin-right: -2%;
+  float: right;
+}
+.home .box-p4 .wrapper-card .owl-nav .owl-next:active {
+  transform: scale(0.9);
+}
+.home .box-p4 .wrapper-card .card {
+  overflow: hidden;
+}
+.home .box-p4 .wrapper-card .card img {
+  transition: 0.4s ease;
+}
+.home .box-p4 .wrapper-card .card img:hover {
+  transform: scale(1.1);
+}
+.home .box-p4 .wrapper-card .card .content-card {
+  padding: 10px;
+  position: absolute;
+  bottom: 5%;
+  color: #fff;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.home .box-p5 {
+  padding: 10px;
+}
+.home .box-p5 .title-box {
+  margin-top: 4rem;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.home .box-p5 .wrapper-rate {
+  overflow: hidden;
+  margin-top: 5rem;
+  box-sizing: border-box;
+}
+.home .box-p5 .wrapper-rate .owl-stage-outer {
+  overflow: visible;
+}
+.home .box-p5 .wrapper-rate .owl-nav {
+  display: none;
+}
+.home .box-p5 .wrapper-rate .owl-dots {
+  margin-top: 3rem;
+}
+.home .box-p5 .wrapper-rate .owl-dots button.owl-dot span {
+  visibility: hidden;
+}
+.home .box-p5 .wrapper-rate .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #dcdcdc;
+  transition: 0.8s cubic-bezier(0.33, 0.67, 0.83, 0.67);
+  margin: 0 3px;
+}
+.home .box-p5 .wrapper-rate .owl-dots button.owl-dot.active {
+  width: 15px;
+  height: 15px;
+  background-color: #F5C6A5;
+}
+.home .box-p5 .wrapper-rate .rate-box {
+  box-shadow: 0px 43px 20px -27px rgba(245, 198, 165, 0.8);
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 1100px !important;
+  width: 100% !important;
+  border: 1px solid #dcdcdc;
+}
+.home .box-p5 .wrapper-rate .rate-box .content-rate {
+  padding: 20px;
+  margin-top: 1rem;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.home .box-p5 .wrapper-rate .rate-box .content-rate p {
+  word-break: break-all;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile {
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar {
+  width: 100%;
+  padding: 20px;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar img {
+  border-radius: 50%;
+  max-width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(1) {
+  text-align: center;
+  max-width: 83px;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(2) h2 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 0.8rem;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(2) p {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(3) .rate-star {
+  float: right;
+  margin-top: 2rem;
+}
+.home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(3) .rate-star .star {
+  padding: 8px;
+  font-size: 20px;
+  color: gold;
+}
 
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-  #header .hwader .flex-header .col-head:nth-child(2) {
-    display: inline-block !important;
-  }
-
-  .small-header {
-    display: block !important;
+@media only screen and (max-width: 1024px) {
+  .box-p1 .owl-dots {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 8rem;
+    position: absolute;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -575,22 +836,22 @@ a {
     color: #242329;
   }
 
-  .home .box-v1 {
+  .home .box-p1 {
     margin-top: 4.8rem;
   }
-  .home .box-v1 .item-carousel {
+  .home .box-p1 .item-carousel {
     height: auto;
   }
-  .home .box-v1 .item-carousel img {
+  .home .box-p1 .item-carousel img {
     width: 100% !important;
   }
-  .home .box-v1 .item-carousel .content-item {
+  .home .box-p1 .item-carousel .content-item {
     top: 20%;
   }
-  .home .box-v1 .item-carousel .content-item h1 {
+  .home .box-p1 .item-carousel .content-item h1 {
     font-size: 30px;
   }
-  .home .box-v1 .item-carousel .content-item button {
+  .home .box-p1 .item-carousel .content-item button {
     padding: 15px 30px;
     background-color: #F5C6A5;
     color: #242329;
@@ -599,6 +860,26 @@ a {
     border: none;
     font-weight: 700;
     border-radius: 8px;
+  }
+  .home .box-p5 {
+    text-align: center;
+  }
+  .home .box-p5 .wrapper-rate .rate-box {
+    padding: 20px;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile {
+    display: block;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar {
+    padding: 0;
+    text-align: center;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(1) {
+    max-width: 100%;
+    width: 100%;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(3) .rate-star {
+    float: none;
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 564px) {
@@ -618,29 +899,35 @@ a {
     color: #F5C6A5;
   }
 
-  .home .box-v1 .owl-dots {
+  .home .box-p1 .owl-dots {
     bottom: 1rem;
   }
-  .home .box-v1 .owl-dots button.owl-dot {
+  .home .box-p1 .owl-dots button.owl-dot {
     width: 10px;
     height: 10px;
   }
-  .home .box-v1 .owl-dots button.owl-dot.active {
+  .home .box-p1 .owl-dots button.owl-dot.active {
     width: 100px;
     height: 10px;
     background-color: #fff;
   }
-  .home .box-v1 .item-carousel .content-item h1 {
+  .home .box-p1 .item-carousel .content-item h1 {
     font-size: 20px;
   }
-  .home .box-v1 .item-carousel .content-item button {
+  .home .box-p1 .item-carousel .content-item button {
     font-size: 10px;
     padding: 10px 20px;
   }
-  .home .box-v2 .option-menu-box h1 {
+  .home .box-p2 .option-menu-box h1 {
     font-size: 25px;
   }
-  .home .box-v3 .option-menu-box h1 {
+  .home .box-p3 .option-menu-box h1 {
+    font-size: 25px;
+  }
+  .home .box-p4 .option-menu-box h1 {
+    font-size: 25px;
+  }
+  .home .box-p5 .title-box h1 {
     font-size: 25px;
   }
 }
@@ -661,7 +948,7 @@ a {
     color: #F5C6A5;
   }
 
-  .home .box-v1 .item-carousel .content-item h1 {
+  .home .box-p1 .item-carousel .content-item h1 {
     max-width: 300px;
     width: 100%;
     font-size: 18px;
@@ -684,32 +971,32 @@ a {
     color: #F5C6A5;
   }
 
-  .home .box-v1 {
+  .home .box-p1 {
     margin-top: 3.5em;
   }
-  .home .box-v1 .owl-dots {
+  .home .box-p1 .owl-dots {
     bottom: 0rem;
   }
-  .home .box-v1 .owl-dots button.owl-dot {
+  .home .box-p1 .owl-dots button.owl-dot {
     width: 5px;
     height: 5px;
   }
-  .home .box-v1 .owl-dots button.owl-dot.active {
+  .home .box-p1 .owl-dots button.owl-dot.active {
     width: 100px;
     height: 5px;
   }
-  .home .box-v1 .item-carousel .content-item h1 {
+  .home .box-p1 .item-carousel .content-item h1 {
     max-width: 300px;
     width: 100%;
     font-size: 18px;
   }
-  .home .box-v2 .option-menu-box {
+  .home .box-p2 .option-menu-box {
     margin-top: 2rem;
   }
-  .home .box-v2 .option-menu-box h1 {
-    font-size: 15px;
+  .home .box-p2 .option-menu-box h1 {
+    font-size: 18px;
   }
-  .home .box-v2 .option-menu-box .showall {
+  .home .box-p2 .option-menu-box .showall {
     float: right;
     text-decoration: none;
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -717,24 +1004,76 @@ a {
     margin-top: -1rem;
     font-size: 10px;
   }
-  .home .box-v3 .option-menu-box {
-    margin-top: 2rem;
-  }
-  .home .box-v3 .option-menu-box h1 {
+  .home .box-p2 .wrapper-card .card .content-card h1 {
     font-size: 15px;
   }
-  .home .box-v3 .option-menu-box .showall {
+  .home .box-p2 .wrapper-card .card .content-card h2 {
+    font-size: 13px;
+  }
+  .home .box-p2 .wrapper-card .card .footer-card a {
+    font-size: 12px;
+  }
+  .home .box-p3 .option-menu-box {
+    margin-top: 2rem;
+  }
+  .home .box-p3 .option-menu-box h1 {
+    font-size: 18px;
+  }
+  .home .box-p3 .option-menu-box .showall {
     float: right;
     text-decoration: none;
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin-top: -1rem;
     font-size: 10px;
   }
+  .home .box-p3 .wrapper-card .card .content-item .flex-card .col-card h2 {
+    font-size: 15px;
+  }
+  .home .box-p3 .wrapper-card .card .footer-card .flex-footer-card .col-card-ft a {
+    font-size: 12px;
+  }
+  .home .box-p4 .option-menu-box {
+    margin-top: 2rem;
+  }
+  .home .box-p4 .option-menu-box h1 {
+    font-size: 18px;
+  }
+  .home .box-p4 .option-menu-box .showall {
+    float: right;
+    text-decoration: none;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: -1rem;
+    font-size: 10px;
+  }
+  .home .box-p5 .title-box h1 {
+    font-size: 18px;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar h2 {
+    font-size: 15px;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar p {
+    font-size: 12px;
+  }
+  .home .box-p5 .wrapper-rate .rate-box .content-rate p {
+    font-size: 12px;
+  }
 }
 @media only screen and (min-width: 52px) and (max-width: 318px) {
   #app {
     display: none;
   }
+}
+.vendor .box-v1 .head-box {
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 1rem;
+  padding: 20px;
+}
+.vendor .box-v1 .head-box h2 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.vendor .box-v1 .head-box p {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
 }
 
 /*# sourceMappingURL=main.css.map */
