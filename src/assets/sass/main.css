@@ -133,6 +133,9 @@
   display: block;
   color: #555555;
 }
+#footer .footer .footer-body .flex-footer .col-footer .menu-footer a:hover {
+  color: #F5C6A5;
+}
 #footer .footer .footer-body .flex-footer .col-footer .menu-footer .menu-social .item {
   background: #555555;
   padding: 8px 13px;

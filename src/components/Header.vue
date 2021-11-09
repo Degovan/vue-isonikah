@@ -5,6 +5,7 @@
         <div class="flex-header">
           <div class="col-head">
             <div class="title-brand-icons">
+              ro
               <img src="../assets/img/logo-isonikah.png" />
             </div>
           </div>

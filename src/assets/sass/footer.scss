@@ -28,6 +28,9 @@
                         a{
                             display: block;
                             color: #555555;
+                            &:hover{
+                                color: $secondary;
+                            }
                         }
                         .menu-social{
                             .item{

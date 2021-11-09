@@ -7,6 +7,9 @@
                 <h2>Vendor</h2>
                 <p>Kamu  ingin mencari vendor impian seperti apa?</p>
             </div>
+            <div class="wrapper-card">
+                
+            </div>
         </div>
         </div>
     </div>
