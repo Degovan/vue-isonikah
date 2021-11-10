@@ -171,7 +171,9 @@
         >
         <div class="card">
              <!-- bagian image card -->
+             <div class="shine">
           <img src="../assets/img/img-1.jpg" alt="isonikah.id">
+             </div>
              <!-- bagian content card -->
           <div class="content-item">
             <div class="flex-card">
@@ -209,7 +211,9 @@
         </div>
         <div class="card">
              <!-- bagian image card -->
+               <div class="shine">
           <img src="../assets/img/img-2.jpg" alt="isonikah.id">
+               </div>
              <!-- bagian content card -->
           <div class="content-item">
             <div class="flex-card">
@@ -284,6 +288,7 @@
         </div>     
          <div class="card">
              <!-- bagian image card -->
+             
           <img src="../assets/img/img-1.jpg" alt="isonikah.id">
              <!-- bagian content card -->
           <div class="content-item">

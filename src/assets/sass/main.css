@@ -190,8 +190,12 @@ input {
 
 button {
   cursor: pointer;
+  transition: 0.4s ease;
   -webkit-tap-highlight-color: transparent;
   outline: none;
+}
+button:active {
+  transform: translateY(20px);
 }
 
 a {
@@ -473,6 +477,7 @@ a {
   transform: scale(0.9);
 }
 .home .box-p3 .wrapper-card .card {
+  overflow: hidden;
   box-sizing: border-box;
 }
 .home .box-p3 .wrapper-card .card .content-item {
@@ -1068,7 +1073,7 @@ a {
 }
 .vendor .box-v1 .head-box {
   border-bottom: 1px solid #dcdcdc;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
   padding: 20px;
 }
 .vendor .box-v1 .head-box h2 {
@@ -1077,6 +1082,109 @@ a {
 .vendor .box-v1 .head-box p {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: grey;
+}
+.vendor .box-v1 .select-box {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.vendor .box-v1 .select-box .flex {
+  text-align: center;
+  display: flex;
+}
+.vendor .box-v1 .select-box .flex .col {
+  width: 100%;
+  padding: 10px;
+}
+.vendor .box-v1 .select-box .flex .col select {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  max-width: 300px;
+  border: 1px solid #dcdcdc;
+  border-bottom: 4px solid #F5C6A5;
+  width: 100%;
+}
+.vendor .box-v1 .select-box .flex .col button {
+  background-color: #F5C6A5;
+  color: #000;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 8px;
+}
+.vendor .box-v1 .wrapper-card {
+  margin-top: 2rem;
+  text-align: center;
+}
+.vendor .box-v1 .wrapper-card .card {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  background-color: #FDF7F7;
+  margin-top: 1rem;
+}
+.vendor .box-v1 .wrapper-card .card .content-card {
+  text-align: left;
+  padding: 15px;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.vendor .box-v1 .wrapper-card .card .content-card h1 {
+  font-size: 25px;
+}
+.vendor .box-v1 .wrapper-card .card .content-card h2 {
+  font-size: 15px;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card {
+  text-align: left;
+  padding: 15px;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card a span {
+  color: #242329 !important;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 10px;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card a:nth-child(1) {
+  color: #000;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card a:nth-child(2) {
+  color: red;
+}
+.vendor .box-v1 .wrapper-card .card .footer-card a:nth-child(3) {
+  color: gold;
+}
+
+@media only screen and (max-width: 780px) {
+  .vendor .box-v1 .head-box {
+    margin-top: 4rem;
+  }
+  .vendor .box-v1 .select-box .flex {
+    display: block;
+  }
+  .vendor .box-v1 .select-box .flex .col select {
+    max-width: 100%;
+    width: 100%;
+  }
+  .vendor .box-v1 .select-box .flex .col button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .vendor .box-v1 .wrapper-card .card {
+    margin: 10px;
+    max-width: 280px;
+  }
+  .vendor .box-v1 .wrapper-card .card img {
+    max-width: 280px;
+  }
+  .vendor .box-v1 .wrapper-card .card .content-card h1 {
+    font-size: 20px;
+  }
+  .vendor .box-v1 .wrapper-card .card .content-card h2 {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

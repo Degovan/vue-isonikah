@@ -1,0 +1,21 @@
+// .card{
+//     overflow: hidden;
+//     &:before{
+//       content: '';
+//       position: absolute;
+//       top: 0;
+//       left: -50rem;
+//       width: 300px;
+//       opacity: 0;
+//       height: 100%;
+//       transform: skewX(-30deg);
+//       transition: 0.5s ease-in;
+//       background-color: transparent;
+//     }
+//     &:hover:before{
+//       opacity: 1;
+//       background-color: rgba(255,255,255,0.9);
+//       left: 50rem;
+//     }
+//   }
+

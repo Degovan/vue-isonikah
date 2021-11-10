@@ -24,8 +24,12 @@ input {
 }
 button {
   cursor: pointer;
+  transition: 0.4s ease;
   -webkit-tap-highlight-color: transparent;
   outline: none;
+  &:active{
+    transform: translateY(20px);
+  }
 }
 a {
   cursor: pointer;
@@ -312,6 +316,7 @@ a {
       }
       margin-top: 4rem;
       .card{
+        overflow: hidden;
         box-sizing: border-box;
         .content-item{
           box-sizing: border-box;
