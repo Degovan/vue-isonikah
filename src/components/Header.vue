@@ -6,17 +6,25 @@
           <div class="col-head">
             <div class="title-brand-icons">
               <router-link to="/">
-              <img src="../assets/img/logo-isonikah.png" />
+                <img src="../assets/img/logo-isonikah.png" />
               </router-link>
             </div>
           </div>
           <div class="col-head" id="searchbox">
-         <div class="closebar" v-on:click="searchHide">
-        <a href="javascript:void(0)"><fa :icon="['fas', 'angle-up']" /></a>
-          </div>
+            <div class="closebar" v-on:click="searchHide">
+              <a href="javascript:void(0)"
+                ><fa :icon="['fas', 'angle-up']"
+              /></a>
+            </div>
             <form action="" method="">
               <div class="input-search">
-                <input type="text" aria-autocomplete="off" autocomplete="off" name="search" placeholder="Cari vendor" />
+                <input
+                  type="text"
+                  aria-autocomplete="off"
+                  autocomplete="off"
+                  name="search"
+                  placeholder="Cari vendor"
+                />
                 <button><fa :icon="['fas', 'search']" /></button>
               </div>
             </form>
@@ -29,8 +37,12 @@
           </div>
           <div class="col-head">
             <div class="bar">
-              <a href="#" v-on:click="searchVisible" style="margin: 0 2rem;"><fa :icon="['fas', 'search']" /></a>
-              <a href="#" v-on:click="barVisible"><fa :icon="['fas', 'bars']" /></a>
+              <a href="#" v-on:click="searchVisible" style="margin: 0 2rem"
+                ><fa :icon="['fas', 'search']"
+              /></a>
+              <a href="#" v-on:click="barVisible"
+                ><fa :icon="['fas', 'bars']"
+              /></a>
             </div>
           </div>
         </div>
@@ -46,9 +58,10 @@
         <router-link to="">Paket Spesial</router-link>
         <router-link to="">Promosi & Acara</router-link>
         <router-link to="">Galeri</router-link>
+        <router-link to="">Event</router-link>
         <router-link to="">Tentang</router-link>
         <div class="menu-auth">
-          <br><br>
+          <br /><br />
           <a href=""><button>Masuk</button></a>
           <a href=""><button>Mendaftar</button></a>
         </div>
@@ -72,7 +85,7 @@ export default {
         document.querySelector(".small-header").style.display = "none";
       }, 480);
     },
-     searchVisible: function () {
+    searchVisible: function () {
       document.querySelector("#searchbox").style.display = "block";
       document.querySelector("#searchbox").style.animation =
         "slideInDown 0.4s ease-in";
@@ -82,7 +95,7 @@ export default {
         "slideOutUp 0.4s ease-out";
       setTimeout(function () {
         document.querySelector("#searchbox").style.display = "none";
-      },380);
+      }, 380);
     },
   },
 };

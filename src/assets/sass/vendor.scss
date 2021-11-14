@@ -1,132 +1,136 @@
-.vendor{
-    .box-v1{
-        .head-box{
-            border-bottom: 1px solid #dcdcdc;
-            margin-top: 0.2rem;
-            padding: 20px;
-            h2{
-                font-family: $poppins;
-            }
-            p{
-                font-family: $poppins;
-                color: grey;
-            }
-        }
-        .select-box{
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-            .flex{
-                text-align: center;
-                display: flex;
-                .col{
-                    width: 100%;
-                    padding: 10px;
-                    select{
-                        font-family: $poppins;
-                        padding: 10px;
-                        max-width: 300px;
-                        border: 1px solid #dcdcdc;
-                        border-bottom: 4px solid $secondary;
-                        width: 100%;
-                    }
-                    button{
-                        background-color: $secondary;
-                        color: #000;
-                        font-family: $poppins;
-                        padding: 12px 35px;
-                        border: none;
-                        border-radius: 8px;
-                    }
-                }
-            }
-        }
-        .wrapper-card{
-            margin-top: 2rem;
-            text-align: center;
-            .card{
-                display: inline-block;
-                max-width: 400px;
-                width: 100%;
-                background-color: #FDF7F7;
-                margin-top: 1rem;
-                .content-card{
-                    text-align: left;
-                    padding: 15px;
-                    font-family: $poppins;
-                    h1{
-                        font-size: 25px;
-                    }
-                    h2{
-                        font-size: 15px;
-                    }
-                }
-                .footer-card{
-                    text-align: left;
-                    padding: 15px;
-                    a {
-                        text-decoration: none;
-                        padding-right: 20px;
-                        span {
-                          color: $primary !important;
-                          font-family: $poppins;
-                          margin: 0 10px;
-                        }
-                        &:nth-child(1) {
-                          color: #000;
-                        }
-                        &:nth-child(2) {
-                          color: red;
-                        }
-                        &:nth-child(3) {
-                          color: gold;
-                        }
-                      }
-                }
-            }
-        }
+.vendor {
+  .box-v1 {
+    .head-box {
+      //   border-bottom: 1px solid #dcdcdc;
+      margin-top: 0.2rem;
+      padding: 20px;
+      h2 {
+        font-family: $poppins;
+      }
+      p {
+        font-family: $poppins;
+        color: grey;
+      }
     }
+    .select-box {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      .flex {
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        .col {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 10px;
+          select {
+            box-sizing: border-box;
+            font-family: $poppins;
+            padding: 10px;
+            max-width: 300px;
+            border: 1px solid #dcdcdc;
+            border-bottom: 4px solid $secondary;
+            width: 100%;
+          }
+          button {
+            box-sizing: border-box;
+            background-color: $secondary;
+            color: #000;
+            font-family: $poppins;
+            padding: 12px 35px;
+            border: none;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+    .wrapper-card {
+      margin-top: 2rem;
+      text-align: center;
+      .card {
+        margin: 10px 14px;
+        display: inline-block;
+        max-width: 350px;
+        background-color: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 1rem;
+        .content-card {
+          text-align: left;
+          padding: 15px;
+          font-family: $poppins;
+          h1 {
+            font-size: 25px;
+          }
+          h2 {
+            font-size: 15px;
+          }
+        }
+        .footer-card {
+          text-align: left;
+          padding: 15px;
+          a {
+            text-decoration: none;
+            padding-right: 20px;
+            span {
+              color: $primary !important;
+              font-family: $poppins;
+              margin: 0 10px;
+            }
+            &:nth-child(1) {
+              color: #000;
+            }
+            &:nth-child(2) {
+              color: red;
+            }
+            &:nth-child(3) {
+              color: gold;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-
-@media only screen and (max-width: 780px){
-    .vendor{
-        .box-v1{
-            .head-box{
-                margin-top: 4rem;
+@media only screen and (max-width: 780px) {
+  .vendor {
+    .box-v1 {
+      .head-box {
+        margin-top: 4rem;
+      }
+      .select-box {
+        .flex {
+          display: block;
+          .col {
+            select {
+              max-width: 100%;
+              width: 100%;
             }
-            .select-box{
-                .flex{
-                    display: block;
-                    .col{
-                        select{
-                            max-width: 100%;
-                            width: 100%;
-                        }
-                        button{
-                            width: 100%;
-                            box-sizing: border-box;
-                        }
-                    }
-                }
+            button {
+              width: 100%;
+              box-sizing: border-box;
             }
-            .wrapper-card{
-                .card{
-                    margin: 10px;
-                    max-width: 280px;
-                    img{
-                        max-width: 280px;
-                    }
-                    .content-card{
-                        h1{
-                            font-size: 20px;
-                        }
-                        h2{
-                            font-size: 12px;
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
+      .wrapper-card {
+        .card {
+          margin: 10px;
+          max-width: 280px;
+          img {
+            max-width: 280px;
+          }
+          .content-card {
+            h1 {
+              font-size: 20px;
+            }
+            h2 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
     }
+  }
 }

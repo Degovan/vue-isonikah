@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Vendor from '../views/Vendor.vue'
+import Kategory from '../views/Kategory.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -18,6 +19,12 @@ const routes = [
     name: 'Vendor',
     component: Vendor,
     meta: { title: 'Isonikah - Vendor' }
+  },
+  {
+    path: '/kategory',
+    name: 'Kategory',
+    component: Kategory,
+    meta: { title: 'Isonikah - Kategory' }
   },
   {
     path: '/about',

@@ -8,7 +8,6 @@
 
 @import "footer.scss";
 
-
 * {
   margin: 0 auto;
   padding: 0 auto;
@@ -27,7 +26,7 @@ button {
   transition: 0.4s ease;
   -webkit-tap-highlight-color: transparent;
   outline: none;
-  &:active{
+  &:active {
     transform: translateY(20px);
   }
 }
@@ -37,7 +36,6 @@ a {
   text-decoration: none;
   outline: none;
 }
-
 
 .container {
   max-width: 1200px;
@@ -173,39 +171,38 @@ a {
         background-color: $secondary;
       }
 
-
-      .owl-nav{
+      .owl-nav {
         width: 100%;
         top: 8rem;
         position: absolute;
-        .owl-prev{
+        .owl-prev {
           font-size: 20px;
           padding: 20px;
           width: 30px;
           height: 30px;
           transition: 0.3s ease-in;
           border-radius: 50%;
-          background-image: url('../img/arrow-left.png');
+          background-image: url("../img/arrow-left.png");
           margin-left: -2%;
           float: left;
-          &:active{
+          &:active {
             transform: scale(0.9);
           }
         }
-        .owl-next{ 
+        .owl-next {
           font-size: 20px;
           padding: 20px;
           width: 30px;
           transition: 0.3s ease-in;
           height: 30px;
-          background-image: url('../img/arrow-right.png');
+          background-image: url("../img/arrow-right.png");
           border-radius: 50%;
-        margin-right: -2%;      
-         float: right;
-         &:active{
-          transform: scale(0.9);
+          margin-right: -2%;
+          float: right;
+          &:active {
+            transform: scale(0.9);
+          }
         }
-         }
       }
       .card {
         background-color: #fff;
@@ -241,7 +238,7 @@ a {
       }
     }
   }
-  .box-p3{
+  .box-p3 {
     padding: 20px;
     .option-menu-box {
       margin-top: 3rem;
@@ -257,7 +254,7 @@ a {
         margin-top: -2rem;
       }
     }
-    .wrapper-card{
+    .wrapper-card {
       box-sizing: border-box;
       .owl-dots {
         margin-top: 3rem;
@@ -279,61 +276,61 @@ a {
         height: 15px;
         background-color: $secondary;
       }
-      .owl-nav{
+      .owl-nav {
         width: 100%;
         top: 8rem;
         position: absolute;
-        .owl-prev{
+        .owl-prev {
           font-size: 20px;
           padding: 20px;
           width: 30px;
-          box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
           height: 30px;
           transition: 0.3s ease-in;
           border-radius: 50%;
-          background-image: url('../img/arrow-left.png');
+          background-image: url("../img/arrow-left.png");
           margin-left: -2%;
           float: left;
-          &:active{
+          &:active {
             transform: scale(0.9);
           }
         }
-        .owl-next{ 
+        .owl-next {
           font-size: 20px;
           padding: 20px;
           width: 30px;
           transition: 0.3s ease-in;
-          box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
           height: 30px;
-          background-image: url('../img/arrow-right.png');
+          background-image: url("../img/arrow-right.png");
           border-radius: 50%;
-        margin-right: -2%;      
-         float: right;
-         &:active{
-          transform: scale(0.9);
+          margin-right: -2%;
+          float: right;
+          &:active {
+            transform: scale(0.9);
+          }
         }
-         }
       }
       margin-top: 4rem;
-      .card{
+      .card {
         overflow: hidden;
         box-sizing: border-box;
-        .content-item{
+        .content-item {
           box-sizing: border-box;
-          .flex-card{
+          .flex-card {
             box-sizing: border-box;
             display: flex;
-            .col-card{
+            .col-card {
               box-sizing: border-box;
               padding: 10px;
               width: 100%;
-              h2{
+              h2 {
                 font-family: $poppins;
               }
-              &:nth-child(2){
+              &:nth-child(2) {
                 max-width: 110px;
                 text-align: center;
-                button{
+                button {
                   padding: 10px;
                   border: none;
                   font-family: $poppins;
@@ -345,35 +342,34 @@ a {
               }
             }
           }
-          .cost{
+          .cost {
             padding: 10px;
-            h2{
+            h2 {
               font-size: 15px;
               font-family: $poppins;
             }
           }
-          .event{
+          .event {
             padding: 10px;
-            h2{
+            h2 {
               font-family: $poppins;
               font-size: 15px;
             }
           }
         }
-        .footer-card{
+        .footer-card {
           padding: 10px;
-          a{
+          a {
             color: $primary;
             width: 100%;
             font-family: $poppins;
-            span{
+            span {
               margin: 0 10px;
             }
           }
-          .flex-footer-card{
+          .flex-footer-card {
             display: flex;
-            .col-card-ft{
-
+            .col-card-ft {
               width: 100%;
               box-sizing: border-box;
               text-align: left;
@@ -383,7 +379,7 @@ a {
       }
     }
   }
-  .box-p4{
+  .box-p4 {
     padding: 20px;
     background-color: $primary;
     .option-menu-box {
@@ -400,7 +396,7 @@ a {
         margin-top: -2rem;
       }
     }
-    .wrapper-card{
+    .wrapper-card {
       margin-top: 4rem;
       box-sizing: border-box;
       .owl-dots {
@@ -423,52 +419,52 @@ a {
         height: 15px;
         background-color: $secondary;
       }
-      .owl-nav{
+      .owl-nav {
         width: 100%;
         top: 4rem;
         position: absolute;
-        .owl-prev{
+        .owl-prev {
           font-size: 20px;
           padding: 20px;
           width: 30px;
-          box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
           height: 30px;
           transition: 0.3s ease-in;
           border-radius: 50%;
-          background-image: url('../img/arrow-left.png');
+          background-image: url("../img/arrow-left.png");
           margin-left: -2%;
           float: left;
-          &:active{
+          &:active {
             transform: scale(0.9);
           }
         }
-        .owl-next{ 
+        .owl-next {
           font-size: 20px;
           padding: 20px;
           width: 30px;
           transition: 0.3s ease-in;
-          box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
           height: 30px;
-          background-image: url('../img/arrow-right.png');
+          background-image: url("../img/arrow-right.png");
           border-radius: 50%;
-        margin-right: -2%;      
-         float: right;
-         &:active{
-          transform: scale(0.9);
+          margin-right: -2%;
+          float: right;
+          &:active {
+            transform: scale(0.9);
+          }
         }
-         }
       }
-      .card{
+      .card {
         overflow: hidden;
-        img{
+        img {
           transition: 0.4s ease;
           // filter: brightness(0.5);
-          &:hover{
+          &:hover {
             transform: scale(1.1);
           }
         }
 
-        .content-card{
+        .content-card {
           padding: 10px;
           position: absolute;
           bottom: 5%;
@@ -478,21 +474,21 @@ a {
       }
     }
   }
-  .box-p5{
+  .box-p5 {
     padding: 10px;
-    .title-box{
+    .title-box {
       margin-top: 4rem;
       font-family: $poppins;
     }
-    
-    .wrapper-rate{
+
+    .wrapper-rate {
       overflow: hidden;
-      .owl-stage-outer { 
+      .owl-stage-outer {
         overflow: visible;
       }
-      .owl-nav{
+      .owl-nav {
         display: none;
-      }      
+      }
       margin-top: 5rem;
       box-sizing: border-box;
       .owl-dots {
@@ -515,70 +511,70 @@ a {
         height: 15px;
         background-color: $secondary;
       }
-      .rate-box{
-        box-shadow:  0px 43px 20px -27px  rgba(245, 198, 165,0.8);
+      .rate-box {
+        box-shadow: 0px 43px 20px -27px rgba(245, 198, 165, 0.8);
         background-color: #fff;
         box-sizing: border-box;
         max-width: 1100px !important;
         width: 100% !important;
         border: 1px solid #dcdcdc;
-        
-        .content-rate{
+
+        .content-rate {
           padding: 20px;
           margin-top: 1rem;
           font-family: $poppins;
-          p{
+          p {
             word-break: break-all;
           }
         }
-        .avatar-box{
-          .avatar-profile{
+        .avatar-box {
+          .avatar-profile {
             width: 100%;
             margin-left: 0;
             display: flex;
-            .col-avatar{
+            .col-avatar {
               width: 100%;
               padding: 20px;
-              img{
+              img {
                 border-radius: 50%;
                 max-width: 80px;
                 height: 80px;
                 object-fit: cover;
-              }   
-              &:nth-child(1){
+              }
+              &:nth-child(1) {
                 text-align: center;
                 max-width: 83px;
               }
-              &:nth-child(2){
-                h2{
+              &:nth-child(2) {
+                h2 {
                   font-family: $poppins;
                   margin-top: 0.8rem;
                 }
-                p{
+                p {
                   font-family: $poppins;
                   color: grey;
                 }
               }
-              &:nth-child(3){
-                .rate-star{
+              &:nth-child(3) {
+                .rate-star {
                   float: right;
                   margin-top: 2rem;
-                  .star{
+                  .star {
                     padding: 8px;
                     font-size: 20px;
                     color: gold;
                   }
                 }
               }
-            }     
+            }
           }
         }
-     }
+      }
     }
   }
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .box-p1 {
     .owl-dots {
       margin-left: auto;
@@ -589,7 +585,7 @@ a {
       bottom: 8rem;
       position: absolute;
     }
-  } 
+  }
 }
 
 @media only screen and (max-width: 780px) {
@@ -598,7 +594,7 @@ a {
   }
 
   #header {
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     top: 0;
     position: fixed;
@@ -629,8 +625,8 @@ a {
             right: 0;
             padding: 20px !important;
             border-bottom: 2px solid $secondary;
-            .closebar{           
-              a{
+            .closebar {
+              a {
                 font-size: 20px;
                 color: $secondary;
               }
@@ -669,23 +665,22 @@ a {
             color: $secondary;
           }
         }
-        .menu-auth{
+        .menu-auth {
           display: block;
-          a{
+          a {
             padding: 4px;
-            &:hover{
-            
+            &:hover {
               background-color: transparent;
             }
-            &:nth-child(2){
-              button{
+            &:nth-child(2) {
+              button {
                 background-color: transparent;
                 color: $primary;
                 border: 1px solid $primary;
               }
             }
           }
-          button{
+          button {
             padding: 20px;
             border: none;
             font-family: $poppins;
@@ -734,23 +729,23 @@ a {
         }
       }
     }
-    .box-p5{
+    .box-p5 {
       text-align: center;
-      .wrapper-rate{
-        .rate-box{
+      .wrapper-rate {
+        .rate-box {
           padding: 20px;
-          .avatar-box{
-            .avatar-profile{
+          .avatar-box {
+            .avatar-profile {
               display: block;
-              .col-avatar{
+              .col-avatar {
                 padding: 0;
                 text-align: center;
-                &:nth-child(1){
+                &:nth-child(1) {
                   max-width: 100%;
                   width: 100%;
                 }
-                &:nth-child(3){
-                  .rate-star{
+                &:nth-child(3) {
+                  .rate-star {
                     float: none;
                   }
                 }
@@ -761,17 +756,16 @@ a {
       }
     }
   }
- 
 }
 
-@media only screen and (min-width: 425px) and  (max-width: 564px) {
-  #header{
-    .header{
+@media only screen and (min-width: 425px) and (max-width: 564px) {
+  #header {
+    .header {
       padding: 8px;
-      .flex-header{
-        .col-head{
-          .title-brand-icons{
-            img{
+      .flex-header {
+        .col-head {
+          .title-brand-icons {
+            img {
               max-width: 80px;
             }
           }
@@ -790,9 +784,9 @@ a {
       }
     }
   }
-  .home{
-    .box-p1{
-      .owl-dots{
+  .home {
+    .box-p1 {
+      .owl-dots {
         bottom: 1rem;
       }
       .owl-dots button.owl-dot {
@@ -804,42 +798,42 @@ a {
         height: 10px;
         background-color: #fff;
       }
-     .item-carousel{
-       .content-item{
-         h1{
-           font-size: 20px;
-         }
-         button{
-           font-size: 10px;
-           padding: 10px 20px;
-         }
-       }
-     } 
+      .item-carousel {
+        .content-item {
+          h1 {
+            font-size: 20px;
+          }
+          button {
+            font-size: 10px;
+            padding: 10px 20px;
+          }
+        }
+      }
     }
-    .box-p2{
-      .option-menu-box{
-        h1{
+    .box-p2 {
+      .option-menu-box {
+        h1 {
           font-size: 25px;
         }
       }
     }
-    .box-p3{
-      .option-menu-box{
-        h1{
+    .box-p3 {
+      .option-menu-box {
+        h1 {
           font-size: 25px;
         }
       }
     }
-    .box-p4{
-      .option-menu-box{
-        h1{
+    .box-p4 {
+      .option-menu-box {
+        h1 {
           font-size: 25px;
         }
       }
     }
-    .box-p5{
-      .title-box{
-        h1{
+    .box-p5 {
+      .title-box {
+        h1 {
           font-size: 25px;
         }
       }
@@ -848,13 +842,13 @@ a {
 }
 
 @media only screen and (max-width: 375px) {
-  #header{
-    .header{
+  #header {
+    .header {
       padding: 8px;
-      .flex-header{
-        .col-head{
-          .title-brand-icons{
-            img{
+      .flex-header {
+        .col-head {
+          .title-brand-icons {
+            img {
               max-width: 80px;
             }
           }
@@ -873,30 +867,29 @@ a {
       }
     }
   }
-  .home{
-    .box-p1{
-    .item-carousel{
-      .content-item{
-        h1{
-          max-width: 300px;
-          width: 100%;
-          font-size: 18px;
+  .home {
+    .box-p1 {
+      .item-carousel {
+        .content-item {
+          h1 {
+            max-width: 300px;
+            width: 100%;
+            font-size: 18px;
+          }
         }
       }
     }
   }
-
- }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 424px) {
-  #header{
-    .header{
+  #header {
+    .header {
       padding: 8px;
-      .flex-header{
-        .col-head{
-          .title-brand-icons{
-            img{
+      .flex-header {
+        .col-head {
+          .title-brand-icons {
+            img {
               max-width: 70px;
             }
           }
@@ -915,8 +908,8 @@ a {
       }
     }
   }
-  .home{
-    .box-p1{
+  .home {
+    .box-p1 {
       margin-top: 3.5em;
       .owl-dots {
         bottom: 0rem;
@@ -929,137 +922,149 @@ a {
         width: 100px;
         height: 5px;
       }
-    .item-carousel{
-      .content-item{
-        h1{
-          max-width: 300px;
-          width: 100%;
+      .item-carousel {
+        .content-item {
+          h1 {
+            max-width: 300px;
+            width: 100%;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .box-p2 {
+      .option-menu-box {
+        margin-top: 2rem;
+        h1 {
+          font-size: 18px;
+        }
+        .showall {
+          float: right;
+          text-decoration: none;
+          font-family: $poppins;
+          color: $secondary;
+          margin-top: -1rem;
+          font-size: 10px;
+        }
+      }
+      .wrapper-card {
+        .card {
+          .content-card {
+            h1 {
+              font-size: 15px;
+            }
+            h2 {
+              font-size: 13px;
+            }
+          }
+          .footer-card {
+            a {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .box-p3 {
+      .option-menu-box {
+        margin-top: 2rem;
+        h1 {
+          font-size: 18px;
+        }
+        .showall {
+          float: right;
+          text-decoration: none;
+          font-family: $poppins;
+          margin-top: -1rem;
+          font-size: 10px;
+        }
+      }
+      .wrapper-card {
+        .card {
+          .content-item {
+            .flex-card {
+              .col-card {
+                h2 {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+          .footer-card {
+            .flex-footer-card {
+              .col-card-ft {
+                a {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .box-p4 {
+      .option-menu-box {
+        margin-top: 2rem;
+        h1 {
+          font-size: 18px;
+        }
+        .showall {
+          float: right;
+          text-decoration: none;
+          font-family: $poppins;
+          margin-top: -1rem;
+          font-size: 10px;
+        }
+      }
+    }
+    .box-p5 {
+      .title-box {
+        h1 {
           font-size: 18px;
         }
       }
-    }
-  }
-  .box-p2{
-    .option-menu-box{
-      margin-top: 2rem;
-      h1{
-        font-size: 18px;
-      }
-      .showall {
-        float: right;
-        text-decoration: none;
-        font-family: $poppins;
-        color: $secondary;
-        margin-top: -1rem;
-        font-size: 10px;
-      }
-    }
-    .wrapper-card{
-      .card{
-        .content-card{
-          h1{
-            font-size: 15px;
-          }
-          h2{
-            font-size: 13px;
-          }
-         
-        }
-        .footer-card{
-          a{
-            font-size: 12px;
-          }
-        }
-      }
-    }
-  }
-  .box-p3{
-    .option-menu-box{
-      margin-top: 2rem;
-      h1{
-        font-size: 18px;
-      }
-      .showall {
-        float: right;
-        text-decoration: none;
-        font-family: $poppins;
-        margin-top: -1rem;
-        font-size: 10px;
-      }
-    }
-    .wrapper-card{
-      .card{
-        .content-item{
-          .flex-card{
-            .col-card{
-              h2{
-                font-size: 15px;
+      .wrapper-rate {
+        .rate-box {
+          .avatar-box {
+            .avatar-profile {
+              .col-avatar {
+                h2 {
+                  font-size: 15px;
+                }
+                p {
+                  font-size: 12px;
+                }
               }
             }
           }
-        }
-        .footer-card{
-          .flex-footer-card{
-            .col-card-ft{
-              a{
-                font-size: 12px;
-              }
+          .content-rate {
+            p {
+              font-size: 12px;
             }
           }
         }
       }
     }
   }
-  .box-p4{
-    .option-menu-box{
-      margin-top: 2rem;
-      h1{
-        font-size: 18px;
-      }
-      .showall {
-        float: right;
-        text-decoration: none;
-        font-family: $poppins;
-        margin-top: -1rem;
-        font-size: 10px;
-      }
-    }
-  }
-  .box-p5{
-    .title-box{
-      h1{
-        font-size: 18px;
-      }
-    }
-    .wrapper-rate{
-      .rate-box{
-        .avatar-box{
-          .avatar-profile{
-            .col-avatar{
-              h2{
-                font-size: 15px;
-              }
-              p{
-                font-size: 12px;
-              }
-            }
-          }
-        }
-        .content-rate{
-          p{
-            font-size: 12px;
-          }
-        }
-      }
-    }
-  }
- }
 }
 @media only screen and (min-width: 52px) and (max-width: 318px) {
-  #app{
+  #app {
     display: none;
   }
 }
 
+@media only screen and (min-width: 800px) and (max-width: 980px) {
+  .home {
+    .box-p1 {
+      .item-carousel {
+        height: auto;
+      }
+    }
+  }
+}
+
+// vendor page css
 @import "vendor.scss";
 
+// katgory page css
+@import "kategory.scss";
