@@ -337,7 +337,7 @@
       <div class="container">
          <div class="option-menu-box">
         <h1>Kategori</h1>
-        <router-link to="" class="showall">Lihat semua</router-link>
+        <router-link to="/kategory" class="showall">Lihat semua</router-link>
       </div>
       <div class="wrapper-card">
         <carousel

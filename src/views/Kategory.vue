@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../assets/img/kategori-3.jpg" alt="" />
+            <img src="../assets/img/kategori-baju-adat.jpg" alt="" />
             <div class="content-card">
               <h2>Baju Adat</h2>
             </div>

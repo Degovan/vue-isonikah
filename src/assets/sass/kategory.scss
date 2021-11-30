@@ -17,6 +17,7 @@
       .card {
         margin: 20px 14px;
         display: inline-block;
+        cursor: pointer;
         overflow: hidden;
         img {
           max-width: 350px;
@@ -34,6 +35,9 @@
           margin-top: -5rem;
           color: #fff;
           font-family: $poppins;
+          h2{
+            font-size: 18px;
+          }
         }
       }
     }

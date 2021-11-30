@@ -1212,6 +1212,7 @@ a {
 .kategory .box-v1 .wrapper-card .card {
   margin: 20px 14px;
   display: inline-block;
+  cursor: pointer;
   overflow: hidden;
 }
 .kategory .box-v1 .wrapper-card .card img {
@@ -1229,6 +1230,9 @@ a {
   margin-top: -5rem;
   color: #fff;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.kategory .box-v1 .wrapper-card .card .content-card h2 {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 780px) {
