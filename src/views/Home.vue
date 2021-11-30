@@ -58,7 +58,7 @@
       <div class="container">
         <div class="option-menu-box">
           <h1>Vendor Terbaru</h1>
-          <router-link to="" class="showall">Lihat Semua</router-link>
+          <router-link to="/vendor" class="showall">Lihat Semua</router-link>
         </div>
         <div class="wrapper-card">
           <carousel

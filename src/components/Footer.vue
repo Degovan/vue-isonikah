@@ -18,7 +18,7 @@
                 <br />
                 <router-link to="">Vendor</router-link>
                 <router-link to="">Promo & Acara</router-link>
-                <router-link to="">Paket</router-link>
+                <router-link to="">Paket Spesial</router-link>
                 <router-link to="">Event</router-link>
                 <router-link to="">Undangan Online</router-link>
               </div>
