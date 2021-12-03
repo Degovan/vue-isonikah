@@ -44,7 +44,7 @@
   }
 }
 
-#fotografer {
+#subkategory {
   .box-v1 {
     .head-box {
       //   border-bottom: 1px solid #dcdcdc;
@@ -71,10 +71,11 @@
           width: 100%;
           padding: 10px;
           select {
+            text-align: left;
             box-sizing: border-box;
             font-family: $poppins;
             padding: 10px;
-            max-width: 300px;
+            width: 100%;
             border: 1px solid #dcdcdc;
             border-bottom: 4px solid $secondary;
             width: 100%;
@@ -92,20 +93,20 @@
       }
     }
     .wrapper-card {
+      margin-top: 2rem;
       text-align: center;
       .card {
         margin: 10px 14px;
         display: inline-block;
         max-width: 350px;
-        box-sizing: border-box;
         background-color: #fff;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         margin-top: 1rem;
+        box-sizing: border-box;
         img{
           width: 100%;
         }
         .content-card {
-          box-sizing: border-box;
           text-align: left;
           padding: 15px;
           font-family: $poppins;
@@ -155,6 +156,45 @@
           img {
             max-width: 100%;
             width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #subkategory {
+    .box-v1 {
+      .head-box {
+        margin-top: 7rem;
+      }
+      .select-box {
+        .flex {
+          display: block;
+          .col {
+            select {
+              max-width: 100%;
+              width: 100%;
+            }
+            button {
+              width: 100%;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+      .wrapper-card {
+        .card {
+          margin: 10px;
+          max-width: 280px;
+          img {
+            max-width: 280px;
+          }
+          .content-card {
+            h1 {
+              font-size: 20px;
+            }
+            h2 {
+              font-size: 12px;
+            }
           }
         }
       }

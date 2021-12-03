@@ -1106,7 +1106,7 @@ a {
   box-sizing: border-box;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 10px;
-  max-width: 300px;
+  width: 100%;
   border: 1px solid #dcdcdc;
   border-bottom: 4px solid #F5C6A5;
   width: 100%;
@@ -1172,7 +1172,7 @@ a {
 
 @media only screen and (max-width: 780px) {
   .vendor .box-v1 .head-box {
-    margin-top: 4rem;
+    margin-top: 7rem;
   }
   .vendor .box-v1 .select-box .flex {
     display: block;
@@ -1239,42 +1239,43 @@ a {
   font-size: 18px;
 }
 
-#fotografer .box-v1 .head-box {
+#subkategory .box-v1 .head-box {
   margin-top: 0.2rem;
   padding: 20px;
 }
-#fotografer .box-v1 .head-box h2 {
+#subkategory .box-v1 .head-box h2 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-#fotografer .box-v1 .head-box p {
+#subkategory .box-v1 .head-box p {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: grey;
 }
-#fotografer .box-v1 .select-box {
+#subkategory .box-v1 .select-box {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
 }
-#fotografer .box-v1 .select-box .flex {
+#subkategory .box-v1 .select-box .flex {
   box-sizing: border-box;
   text-align: center;
   display: flex;
 }
-#fotografer .box-v1 .select-box .flex .col {
+#subkategory .box-v1 .select-box .flex .col {
   box-sizing: border-box;
   width: 100%;
   padding: 10px;
 }
-#fotografer .box-v1 .select-box .flex .col select {
+#subkategory .box-v1 .select-box .flex .col select {
+  text-align: left;
   box-sizing: border-box;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 10px;
-  max-width: 300px;
+  width: 100%;
   border: 1px solid #dcdcdc;
   border-bottom: 4px solid #F5C6A5;
   width: 100%;
 }
-#fotografer .box-v1 .select-box .flex .col button {
+#subkategory .box-v1 .select-box .flex .col button {
   box-sizing: border-box;
   background-color: #F5C6A5;
   color: #000;
@@ -1283,53 +1284,53 @@ a {
   border: none;
   border-radius: 8px;
 }
-#fotografer .box-v1 .wrapper-card {
+#subkategory .box-v1 .wrapper-card {
+  margin-top: 2rem;
   text-align: center;
 }
-#fotografer .box-v1 .wrapper-card .card {
+#subkategory .box-v1 .wrapper-card .card {
   margin: 10px 14px;
   display: inline-block;
   max-width: 350px;
-  box-sizing: border-box;
   background-color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
+  box-sizing: border-box;
 }
-#fotografer .box-v1 .wrapper-card .card img {
+#subkategory .box-v1 .wrapper-card .card img {
   width: 100%;
 }
-#fotografer .box-v1 .wrapper-card .card .content-card {
-  box-sizing: border-box;
+#subkategory .box-v1 .wrapper-card .card .content-card {
   text-align: left;
   padding: 15px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-#fotografer .box-v1 .wrapper-card .card .content-card h1 {
+#subkategory .box-v1 .wrapper-card .card .content-card h1 {
   font-size: 25px;
 }
-#fotografer .box-v1 .wrapper-card .card .content-card h2 {
+#subkategory .box-v1 .wrapper-card .card .content-card h2 {
   font-size: 15px;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card {
+#subkategory .box-v1 .wrapper-card .card .footer-card {
   text-align: left;
   padding: 15px;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card a {
+#subkategory .box-v1 .wrapper-card .card .footer-card a {
   text-decoration: none;
   padding-right: 20px;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card a span {
+#subkategory .box-v1 .wrapper-card .card .footer-card a span {
   color: #242329 !important;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0 10px;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card a:nth-child(1) {
+#subkategory .box-v1 .wrapper-card .card .footer-card a:nth-child(1) {
   color: #000;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card a:nth-child(2) {
+#subkategory .box-v1 .wrapper-card .card .footer-card a:nth-child(2) {
   color: red;
 }
-#fotografer .box-v1 .wrapper-card .card .footer-card a:nth-child(3) {
+#subkategory .box-v1 .wrapper-card .card .footer-card a:nth-child(3) {
   color: gold;
 }
 
@@ -1346,6 +1347,34 @@ a {
   .kategory .box-v1 .wrapper-card .card img {
     max-width: 100%;
     width: 100%;
+  }
+
+  #subkategory .box-v1 .head-box {
+    margin-top: 7rem;
+  }
+  #subkategory .box-v1 .select-box .flex {
+    display: block;
+  }
+  #subkategory .box-v1 .select-box .flex .col select {
+    max-width: 100%;
+    width: 100%;
+  }
+  #subkategory .box-v1 .select-box .flex .col button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #subkategory .box-v1 .wrapper-card .card {
+    margin: 10px;
+    max-width: 280px;
+  }
+  #subkategory .box-v1 .wrapper-card .card img {
+    max-width: 280px;
+  }
+  #subkategory .box-v1 .wrapper-card .card .content-card h1 {
+    font-size: 20px;
+  }
+  #subkategory .box-v1 .wrapper-card .card .content-card h2 {
+    font-size: 12px;
   }
 }
 

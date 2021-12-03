@@ -28,7 +28,7 @@
             box-sizing: border-box;
             font-family: $poppins;
             padding: 10px;
-            max-width: 300px;
+            width: 100%;
             border: 1px solid #dcdcdc;
             border-bottom: 4px solid $secondary;
             width: 100%;
@@ -101,7 +101,7 @@
   .vendor {
     .box-v1 {
       .head-box {
-        margin-top: 4rem;
+        margin-top: 7rem;
       }
       .select-box {
         .flex {
