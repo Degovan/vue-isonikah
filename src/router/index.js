@@ -43,13 +43,13 @@ const routes = [
     meta: { title: 'Isonikah - Kategory Make up' }
   },
   {
-    path: '/bajuadat',
+    path: '/kategory/bajuadat',
     name: 'Bajuadat',
     component: BajuAdat,
     meta: { title: 'Isonikah - Kategory Baju Adat' }
   },
   {
-    path: '/dekorasi',
+    path: '/kategory/dekorasi',
     name: 'Dekorasi',
     component: Dekorasi,
     meta: { title: 'Isonikah - Kategory Dekorasi' }

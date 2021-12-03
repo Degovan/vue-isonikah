@@ -1,5 +1,5 @@
 <template>
-    <div id="fotografer">
+    <div id="subkategory">
         <Header />
         <div class="box-v1">
             <div class="head-box">
@@ -34,8 +34,7 @@
                      
                 </div>
         </div>
-          <br>
-           <div class="wrapper-card">
+                 <div class="wrapper-card">
          <div class="card">
               <img src="../../assets/img/bayi1.jpg" alt="" />
               <!-- bagian content card -->
@@ -145,6 +144,8 @@
               </div>
             </div>
            </div>
+          <br>
+       
       </div>
         </div>
         <Footer />
