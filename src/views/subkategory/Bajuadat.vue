@@ -2,9 +2,9 @@
     <div id="subkategory">
         <Header />
         <div class="box-v1">
-            <div class="head-box">
         <div class="container">
-          <h2>Kategori : Make up</h2>
+            <div class="head-box">
+          <h2>Kategori : Baju Adat</h2>
           <p>Temukan kategori sesuai dengan keinginanmu.</p>
 
           <div class="select-box">
@@ -31,11 +31,9 @@
                             <button>Cari vendor</button>
                         </div>
                     </div>
-                     
-                </div>
-        </div>
-          <br>
-           <div class="wrapper-card">
+          </div>
+            </div>
+             <div class="wrapper-card">
          <div class="card">
               <img src="../../assets/img/riastangan.jpg" alt="" />
               <!-- bagian content card -->
@@ -162,27 +160,12 @@
                 <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
               </div>
             </div>
-                 <div class="card">
-              <img src="../../assets/img/makeup5.jpg" alt="" />
-              <!-- bagian content card -->
-              <div class="content-card">
-                <h1>Makeup pengantin</h1>
-                <h2>Rp 3.500.000</h2>
-                <p>Makeup</p>
-              </div>
-              <div class="footer-card">
-                <a href="#"
-                  ><fa :icon="['fas', 'map-marker-alt']" /><span
-                    >Tenggarang</span
-                  ></a
-                >
-                <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
-                <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
-              </div>
             </div>
-           </div>
-      </div>
         </div>
+        </div>
+
+          <br>
+          
         <Footer />
     </div>
 </template>

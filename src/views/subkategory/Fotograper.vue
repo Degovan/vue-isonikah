@@ -2,8 +2,8 @@
     <div id="subkategory">
         <Header />
         <div class="box-v1">
-            <div class="head-box">
         <div class="container">
+            <div class="head-box">
           <h2>Kategori : Fotografer</h2>
           <p>Temukan kategori sesuai dengan keinginanmu.</p>
 
@@ -31,11 +31,9 @@
                             <button>Cari vendor</button>
                         </div>
                     </div>
-                     
-                </div>
-      </div>
-        </div>
-                 <div class="wrapper-card">
+          </div>
+            </div>
+               <div class="wrapper-card">
          <div class="card">
               <img src="../../assets/img/bayi1.jpg" alt="" />
               <!-- bagian content card -->
@@ -145,9 +143,11 @@
               </div>
             </div>
            </div>
-          <br>
-       
         </div>
+        </div>
+
+          <br>
+          
         <Footer />
     </div>
 </template>

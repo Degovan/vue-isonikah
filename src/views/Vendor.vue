@@ -44,7 +44,6 @@
                     </div>
                      
                 </div>
-            </div>
             <div class="wrapper-card">
                       <div class="card">
               <img src="../assets/img/makanan.jpg" alt="" />
@@ -261,6 +260,7 @@
                 <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
                 <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
               </div>
+            </div>
             </div>
             </div>
             </div>

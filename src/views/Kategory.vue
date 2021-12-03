@@ -2,11 +2,10 @@
   <div class="kategory">
     <Header />
     <div class="box-v1">
-      <div class="head-box">
         <div class="container">
+      <div class="head-box">
           <h2>Kategori</h2>
           <p>Temukan kategori sesuai dengan keinginanmu.</p>
-        </div>
       </div>
       <div>
         <div class="wrapper-card">
@@ -70,6 +69,7 @@
           </div>
         </div>
       </div>
+        </div>
     </div>
     <Footer />
   </div>

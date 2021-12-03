@@ -1,9 +1,9 @@
 <template>
-    <div id="fotografer">
+    <div id="subkategory">
         <Header />
         <div class="box-v1">
-            <div class="head-box">
         <div class="container">
+            <div class="head-box">
           <h2>Kategori : Make up</h2>
           <p>Temukan kategori sesuai dengan keinginanmu.</p>
 
@@ -31,12 +31,9 @@
                             <button>Cari vendor</button>
                         </div>
                     </div>
-                     
-                </div>
-                 </div>
-        </div>
-          <br>
-           <div class="wrapper-card">
+          </div>
+            </div>
+             <div class="wrapper-card">
          <div class="card">
               <img src="../../assets/img/riastangan.jpg" alt="" />
               <!-- bagian content card -->
@@ -163,9 +160,12 @@
                 <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
               </div>
             </div>
-           </div>
-     
+            </div>
         </div>
+        </div>
+
+          <br>
+          
         <Footer />
     </div>
 </template>
