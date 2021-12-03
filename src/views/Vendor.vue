@@ -44,6 +44,7 @@
                     </div>
                      
                 </div>
+            </div>
             <div class="wrapper-card">
                       <div class="card">
               <img src="../assets/img/makanan.jpg" alt="" />
@@ -263,7 +264,6 @@
             </div>
             </div>
             </div>
-        </div>
         <Footer/>
         </div>
 </template>
