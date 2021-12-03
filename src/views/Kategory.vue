@@ -55,7 +55,7 @@
             </div>
           </div>
           <div class="card">
-              <router-link to="/sub/dekorasi">
+              <router-link to="/dekorasi">
             <img src="../assets/img/gedung.jpg" alt="" />
             <div class="content-card">
               <h2>Gedung & Dekorasi</h2>
