@@ -1,5 +1,5 @@
 <template>
-    <div id="subkategory">
+    <div id="fotografer">
         <Header />
         <div class="box-v1">
             <div class="head-box">
@@ -33,6 +33,7 @@
                     </div>
                      
                 </div>
+                 </div>
         </div>
           <br>
            <div class="wrapper-card">
@@ -162,26 +163,8 @@
                 <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
               </div>
             </div>
-                 <div class="card">
-              <img src="../../assets/img/makeup5.jpg" alt="" />
-              <!-- bagian content card -->
-              <div class="content-card">
-                <h1>Makeup pengantin</h1>
-                <h2>Rp 3.500.000</h2>
-                <p>Makeup</p>
-              </div>
-              <div class="footer-card">
-                <a href="#"
-                  ><fa :icon="['fas', 'map-marker-alt']" /><span
-                    >Tenggarang</span
-                  ></a
-                >
-                <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
-                <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
-              </div>
-            </div>
            </div>
-      </div>
+     
         </div>
         <Footer />
     </div>

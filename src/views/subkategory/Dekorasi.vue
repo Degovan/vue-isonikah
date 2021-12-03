@@ -33,6 +33,7 @@
                     </div>
                      
                 </div>
+      </div>
         </div>
                  <div class="wrapper-card">
          <div class="card">
@@ -164,7 +165,6 @@
            </div>
           <br>
        
-      </div>
         </div>
         <Footer />
     </div>

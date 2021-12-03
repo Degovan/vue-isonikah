@@ -1,6 +1,8 @@
 .vendor {
   .box-v1 {
+    text-align: center;
     .head-box {
+      text-align: left;
       //   border-bottom: 1px solid #dcdcdc;
       margin-top: 0.2rem;
       padding: 20px;
@@ -47,7 +49,6 @@
     }
     .wrapper-card {
       margin-top: 2rem;
-      text-align: center;
       .card {
         margin: 10px 14px;
         display: inline-block;
