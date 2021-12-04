@@ -21,6 +21,9 @@ input {
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
+select{
+  outline: none !important;
+}
 button {
   cursor: pointer;
   transition: 0.4s ease;
@@ -95,7 +98,7 @@ a {
       width: 100%;
       background-position: center;
       background-size: cover;
-      height: 80vh;
+      height: 78vh;
       box-sizing: border-box;
       img {
         filter: brightness(50%);

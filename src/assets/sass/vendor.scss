@@ -2,9 +2,9 @@
   .box-v1 {
     text-align: center;
     .head-box {
-      text-align: left;
+      text-align: center;
       //   border-bottom: 1px solid #dcdcdc;
-      margin-top: 0.2rem;
+      margin-top: 1rem;
       padding: 20px;
       h2 {
         font-family: $poppins;
@@ -31,6 +31,7 @@
             font-family: $poppins;
             padding: 10px;
             width: 100%;
+            border-radius: 8px;
             border: 1px solid #dcdcdc;
             border-bottom: 4px solid $secondary;
             width: 100%;

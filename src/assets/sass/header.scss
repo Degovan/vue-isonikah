@@ -20,7 +20,6 @@
           }
           .input-search {
             width: 100%;
-            border: 2px solid #dcdcdc;
             margin: 2rem 0;
             display: flex;
             border-radius: 8px;
@@ -30,9 +29,9 @@
             -ms-border-radius: 8px;
             -o-border-radius: 8px;
             input {
+              border: none;
               width: 100%;
               padding: 15px;
-              border: none;
               font-family: $poppins;
               color: $secondary;
               border-radius: 8px;
@@ -41,6 +40,8 @@
               -moz-border-radius: 8px;
               -ms-border-radius: 8px;
               -o-border-radius: 8px;
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
               &::placeholder {
                 color: $secondary;
               }
@@ -48,11 +49,17 @@
           }
           button {
             font-size: 20px;
-            background-color: transparent;
-            border: none;
-            color: $secondary;
+            background-color: $secondary;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            color: $primary;
             max-width: 80px;
             width: 100%;
+            &:active{
+              transform: none;
+            }
           }
           &:nth-child(1) {
           }

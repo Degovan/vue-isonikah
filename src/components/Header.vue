@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <header class="header">
-      <div class="container">
+      <div>
         <div class="flex-header">
           <div class="col-head">
             <div class="title-brand-icons">
@@ -20,10 +20,11 @@
               <div class="input-search">
                 <input
                   type="text"
+                  placeholder="Temukan vendor pernikahamu...."
                   aria-autocomplete="off"
                   autocomplete="off"
                   name="search"
-                  placeholder="Cari vendor"
+                 
                 />
                 <button><fa :icon="['fas', 'search']" /></button>
               </div>
@@ -31,8 +32,8 @@
           </div>
           <div class="col-head">
             <div class="auth-link">
-              <a href="#"><b>Masuk</b></a
-              >|<a href="#">Mendaftar</a>
+              <a href="#">Join member?</a
+              >|<a href="#"> are you a vendor?</a>
             </div>
           </div>
           <div class="col-head">
@@ -98,5 +99,7 @@ export default {
       }, 380);
     },
   },
+  mounted(){
+  }
 };
 </script>

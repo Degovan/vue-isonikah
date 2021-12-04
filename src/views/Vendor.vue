@@ -4,7 +4,7 @@
         <div class="box-v1">
         <div class="head-box">
             <div class="container">
-                <h2>Vendor</h2>
+                <h2>Vendor Pernikahan</h2>
                 <p>Kamu  ingin mencari vendor impian seperti apa?</p>
             </div>
         </div>
