@@ -16,7 +16,7 @@
               <div class="menu-footer">
                 <h2>Menu</h2>
                 <br />
-                <router-link to="">Vendor</router-link>
+                <router-link to="/vendor">Vendor</router-link>
                 <router-link to="">Promo & Acara</router-link>
                 <router-link to="">Paket Spesial</router-link>
                 <router-link to="">Event</router-link>
@@ -39,7 +39,9 @@
                 <br />
                 <div class="menu-social">
                   <div class="item">
-                    <a href=""><fa :icon="['fab', 'instagram']" /></a>
+                    <a href="https://www.instagram.com/isonikah.id/"
+                      ><fa :icon="['fab', 'instagram']"
+                    /></a>
                   </div>
                   <div class="item">
                     <a href=""><fa :icon="['fab', 'facebook-square']" /></a>
