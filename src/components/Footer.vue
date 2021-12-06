@@ -58,7 +58,7 @@
       </div>
     </footer>
     <div class="small-footer">
-      <p>Allright Reserved IsoNikah.id 2021 &copy;</p>
+      <p>&copy; Isonikah.id 2021 Allright Reserved</p>
     </div>
   </div>
 </template>
