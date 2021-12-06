@@ -368,42 +368,38 @@
             }"
             :navText="['', '']"
           >
-            <div class="card">
-              <img src="../assets/img/kategori-1.jpg" alt="" />
-              <div class="content-card">
-                <h2>Makanan & Minuman</h2>
+            <router-link to="/dekorasi">
+              <div class="card">
+                <img src="../assets/img/dekorasi1.jpg" alt="" />
+                <div class="content-card">
+                  <h2>Dekorasi</h2>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <img src="../assets/img/kategori-2.jpg" alt="" />
-              <div class="content-card">
-                <h2>Make up</h2>
+            </router-link>
+            <router-link to="/makeup">
+              <div class="card">
+                <img src="../assets/img/kategori-2.jpg" alt="" />
+                <div class="content-card">
+                  <h2>Make up</h2>
+                </div>
               </div>
-            </div>
+            </router-link>
             <div class="card">
-              <img src="../assets/img/kategori-3.jpg" alt="" />
-              <div class="content-card">
-                <h2>Baju Adat</h2>
-              </div>
+              <router-link to="/bajuadat">
+                <img src="../assets/img/kategori-3.jpg" alt="" />
+                <div class="content-card">
+                  <h2>Baju Adat</h2>
+                </div>
+              </router-link>
             </div>
-            <div class="card">
-              <img src="../assets/img/kategori-1.jpg" alt="" />
-              <div class="content-card">
-                <h2>Makanan & Minuman</h2>
+            <router-link to="/fotografer">
+              <div class="card">
+                <img src="../assets/img/bayi1.jpg" alt="" />
+                <div class="content-card">
+                  <h2>Fotografer</h2>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <img src="../assets/img/kategori-2.jpg" alt="" />
-              <div class="content-card">
-                <h2>Make up</h2>
-              </div>
-            </div>
-            <div class="card">
-              <img src="../assets/img/kategori-3.jpg" alt="" />
-              <div class="content-card">
-                <h2>Baju Adat</h2>
-              </div>
-            </div>
+            </router-link>
           </carousel>
           <div style="height: 50px"></div>
         </div>
