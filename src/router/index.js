@@ -15,44 +15,44 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    meta: { title: 'IsoNikah - Beranda'}
+    meta: { title: 'Isonikah.id | Rencanakan Pernikahanmu Pada Kami'}
     
   },
   {
     path: '/vendor',
     name: 'Vendor',
     component: Vendor,
-    meta: { title: 'Isonikah - Vendor' }
+    meta: { title: 'Isonikah.id - Vendor' }
   },
   {
     path: '/kategory',
     name: 'Kategory',
     component: Kategory,
-    meta: { title: 'Isonikah - Kategory' }
+    meta: { title: 'Isonikah.id - Kategory' }
   },
   {
     path: '/fotografer',
     name: 'Fotografer',
     component: Fotograper,
-    meta: { title: 'Isonikah - Kategory Fotografer' }
+    meta: { title: 'Isonikah.id - Kategory Fotografer' }
   },
   {
     path: '/makeup',
     name: 'Makeup',
     component: MakeUp,
-    meta: { title: 'Isonikah - Kategory Make up' }
+    meta: { title: 'Isonikah.id - Kategory Make up' }
   },
   {
     path: '/bajuadat',
     name: 'Bajuadat',
     component: BajuAdat,
-    meta: { title: 'Isonikah - Kategory Baju Adat' }
+    meta: { title: 'Isonikah.id - Kategory Baju Adat' }
   },
   {
     path: '/dekorasi',
     name: 'Dekorasi',
     component: Dekorasi,
-    meta: { title: 'Isonikah - Kategory Dekorasi' }
+    meta: { title: 'Isonikah.id - Kategory Dekorasi' }
   },
   {
     path: '/about',

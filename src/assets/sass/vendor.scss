@@ -140,3 +140,18 @@
     }
   }
 }
+
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+  .vendor{
+    .box-v1{
+      .wrapper-card{
+        .card{
+          max-width: 100%;
+          img{
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

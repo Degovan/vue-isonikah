@@ -14,13 +14,13 @@
   align-items: center;
 }
 #header .header .flex-header .col-head .title-brand-icons img {
-  max-width: 100px;
+  max-width: 90px;
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 #header .header .flex-header .col-head .input-search {
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   border-radius: 8px;
   background: #302F37;
@@ -66,7 +66,7 @@
 }
 #header .header .flex-header .col-head:nth-child(3) .auth-link {
   padding: 10px;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   color: #fff;
 }
 #header .header .flex-header .col-head:nth-child(3) .auth-link a {
@@ -278,7 +278,7 @@ a {
   width: 100%;
   background-position: center;
   background-size: cover;
-  height: 78vh;
+  height: 80vh;
   box-sizing: border-box;
 }
 .home .box-p1 .item-carousel img {
@@ -1220,6 +1220,14 @@ a {
   }
   .vendor .box-v1 .wrapper-card .card .content-card h2 {
     font-size: 12px;
+  }
+}
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+  .vendor .box-v1 .wrapper-card .card {
+    max-width: 100%;
+  }
+  .vendor .box-v1 .wrapper-card .card img {
+    max-width: 100%;
   }
 }
 .kategory .box-v1 {

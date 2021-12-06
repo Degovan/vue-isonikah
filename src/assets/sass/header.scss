@@ -1,119 +1,118 @@
 // scss buat header
 
-
 #header {
-    .header {
-      background-color: $primary;
-      box-sizing: border-box;
-      .flex-header {
-        display: flex;
-        .col-head {
-          text-align: center;
-          width: 100%;
-          .title-brand-icons {
-            align-items: center;
-            img {
-              max-width: 100px;
-              width: 100%;
-              margin-top: 1rem;
-            }
-          }
-          .input-search {
+  .header {
+    background-color: $primary;
+    box-sizing: border-box;
+    .flex-header {
+      display: flex;
+      .col-head {
+        text-align: center;
+        width: 100%;
+        .title-brand-icons {
+          align-items: center;
+          img {
+            max-width: 90px;
             width: 100%;
-            margin: 2rem 0;
-            display: flex;
+            margin-top: 0.5rem;
+          }
+        }
+        .input-search {
+          width: 100%;
+          margin: 1rem 0;
+          display: flex;
+          border-radius: 8px;
+          background: $inputbackground;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          input {
+            border: none;
+            width: 100%;
+            padding: 15px;
+            font-family: $poppins;
+            color: $secondary;
             border-radius: 8px;
             background: $inputbackground;
             -webkit-border-radius: 8px;
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
             -o-border-radius: 8px;
-            input {
-              border: none;
-              width: 100%;
-              padding: 15px;
-              font-family: $poppins;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            &::placeholder {
               color: $secondary;
-              border-radius: 8px;
-              background: $inputbackground;
-              -webkit-border-radius: 8px;
-              -moz-border-radius: 8px;
-              -ms-border-radius: 8px;
-              -o-border-radius: 8px;
-              border-top-right-radius: 0px;
-              border-bottom-right-radius: 0px;
-              &::placeholder {
-                color: $secondary;
-              }
-            }
-          }
-          button {
-            font-size: 20px;
-            background-color: $secondary;
-            border-top-right-radius: 8px;
-            border-bottom-right-radius: 8px;
-            border-top-left-radius: 0px;
-            border-bottom-left-radius: 0px;
-            color: $primary;
-            max-width: 80px;
-            width: 100%;
-            &:active{
-              transform: none;
-            }
-          }
-          &:nth-child(1) {
-          }
-          &:nth-child(3) {
-            text-align: center;
-            .auth-link {
-              padding: 10px;
-              margin-top: 2rem;
-              color: #fff;
-              a {
-                text-decoration: none;
-                font-family: $poppins;
-                padding: 5px 10px;
-                color: $secondary !important;
-              }
-            }
-          }
-          &:nth-child(4) {
-            display: none;
-            .bar {
-              text-align: right;
-              margin-right: 30px;
-              margin-top: 1.5rem;
-              a {
-                font-size: 25px;
-                color: $secondary;
-              }
             }
           }
         }
-      }
-    }
-    .small-header {
-      padding: 10px;
-      background-color: $secondary;
-      .menu-bar {
-        text-align: center;
-        a {
-          padding: 30px;
-          text-decoration: none;
+        button {
+          font-size: 20px;
+          background-color: $secondary;
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
           color: $primary;
-          font-family: $poppins;
+          max-width: 80px;
+          width: 100%;
+          &:active {
+            transform: none;
+          }
         }
-        .menu-auth{
+        &:nth-child(1) {
+        }
+        &:nth-child(3) {
+          text-align: center;
+          .auth-link {
+            padding: 10px;
+            margin-top: 1.2rem;
+            color: #fff;
+            a {
+              text-decoration: none;
+              font-family: $poppins;
+              padding: 5px 10px;
+              color: $secondary !important;
+            }
+          }
+        }
+        &:nth-child(4) {
           display: none;
+          .bar {
+            text-align: right;
+            margin-right: 30px;
+            margin-top: 1.5rem;
+            a {
+              font-size: 25px;
+              color: $secondary;
+            }
+          }
         }
       }
     }
   }
-  @media only screen and (max-width: 780px) {
-    #header{
-      .header{
-        top: 0;
-        margin-top: -2px;
+  .small-header {
+    padding: 10px;
+    background-color: $secondary;
+    .menu-bar {
+      text-align: center;
+      a {
+        padding: 30px;
+        text-decoration: none;
+        color: $primary;
+        font-family: $poppins;
+      }
+      .menu-auth {
+        display: none;
       }
     }
   }
+}
+@media only screen and (max-width: 780px) {
+  #header {
+    .header {
+      top: 0;
+      margin-top: -2px;
+    }
+  }
+}
