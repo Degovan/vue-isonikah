@@ -43,10 +43,10 @@ const routes = [
     meta: { title: 'Isonikah.id - Kategory Make up' }
   },
   {
-    path: '/bajuadat',
+    path: '/gaunnikah',
     name: 'Bajuadat',
     component: BajuAdat,
-    meta: { title: 'Isonikah.id - Kategory Baju Adat' }
+    meta: { title: 'Isonikah.id - Gaun nikah & Tunangan' }
   },
   {
     path: '/dekorasi',

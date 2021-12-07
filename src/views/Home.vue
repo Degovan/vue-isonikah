@@ -63,7 +63,7 @@
             :margin="20"
             :dots="true"
             :navText="['', '']"
-            :loop="true"
+            :loop="false"
             :responsive="{
               0: { items: 1, nav: false },
               1440: { items: 3, nav: true },
@@ -91,12 +91,12 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/makanan.jpg" alt="" />
+              <img src="../assets/img/gaun2-vendor.jpg" alt="" />
               <!-- bagian content card -->
               <div class="content-card">
-                <h1>Prasmanan Rendang & Sambal kentang</h1>
-                <h2>Rp 1.500.000</h2>
-                <p>Makanan</p>
+                <h1>Gaun Pernikahan</h1>
+                <h2>Rp 500.000</h2>
+                <p>Gaun nikah & Tunangan</p>
               </div>
               <!-- bagian rate product card  -->
               <div class="footer-card">
@@ -111,12 +111,12 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/makanan.jpg" alt="" />
+              <img src="../assets/img/bayi2.jpg" alt="" />
               <!-- bagian content card -->
               <div class="content-card">
-                <h1>Prasmanan Rendang & Sambal kentang</h1>
+                <h1>Sewa Fotografer</h1>
                 <h2>Rp 1.500.000</h2>
-                <p>Makanan</p>
+                <p>Fotografer</p>
               </div>
               <!-- bagian rate product card  -->
               <div class="footer-card">
@@ -131,11 +131,11 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/makanan.jpg" alt="" />
+              <img src="../assets/img/makeup3-vendor.jpg" alt="" />
               <div class="content-card">
-                <h1>Prasmanan Rendang & Sambal kentang</h1>
-                <h2>Rp 1.500.000</h2>
-                <p>Makanan</p>
+                <h1>Makeup modern</h1>
+                <h2>Rp 800.000</h2>
+                <p>Makeup</p>
               </div>
               <!-- bagian rate product card  -->
               <div class="footer-card">
@@ -370,7 +370,7 @@
           >
             <router-link to="/dekorasi">
               <div class="card">
-                <img src="../assets/img/dekorasi1.jpg" alt="" />
+                <img src="../assets/img/dekorasi4.jpg" alt="" />
                 <div class="content-card">
                   <h2>Dekorasi</h2>
                 </div>
@@ -385,10 +385,10 @@
               </div>
             </router-link>
             <div class="card">
-              <router-link to="/bajuadat">
+              <router-link to="/gaunnikah">
                 <img src="../assets/img/kategori-3.jpg" alt="" />
                 <div class="content-card">
-                  <h2>Baju Adat</h2>
+                  <h2>Gaun nikah & Tunangan</h2>
                 </div>
               </router-link>
             </div>

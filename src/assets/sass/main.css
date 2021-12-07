@@ -108,6 +108,7 @@
   #header .header {
     top: 0;
     margin-top: -2px;
+    padding: 8px;
   }
 }
 #footer {
