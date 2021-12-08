@@ -378,7 +378,7 @@
             </router-link>
             <router-link to="/makeup">
               <div class="card">
-                <img src="../assets/img/kategori-2.jpg" alt="" />
+                <img src="../assets/img/makeup3-vendor.jpg" alt="" />
                 <div class="content-card">
                   <h2>Make up</h2>
                 </div>
@@ -386,7 +386,7 @@
             </router-link>
             <div class="card">
               <router-link to="/gaunnikah">
-                <img src="../assets/img/kategori-3.jpg" alt="" />
+                <img src="../assets/img/gaun2-vendor.jpg" alt="" />
                 <div class="content-card">
                   <h2>Gaun nikah & Tunangan</h2>
                 </div>

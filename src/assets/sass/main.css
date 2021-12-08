@@ -279,7 +279,7 @@ a {
   width: 100%;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   box-sizing: border-box;
 }
 .home .box-p1 .item-carousel img {
@@ -641,9 +641,11 @@ a {
 }
 .home .box-p4 .wrapper-card .card img {
   transition: 0.4s ease;
+  filter: brightness(0.7);
 }
 .home .box-p4 .wrapper-card .card img:hover {
   transform: scale(1.1);
+  filter: brightness(0.7);
 }
 .home .box-p4 .wrapper-card .card .content-card {
   padding: 10px;

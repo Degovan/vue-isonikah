@@ -98,7 +98,7 @@ a {
       width: 100%;
       background-position: center;
       background-size: cover;
-      height: 80vh;
+      height: 100vh;
       box-sizing: border-box;
       img {
         filter: brightness(50%);
@@ -461,9 +461,10 @@ a {
         overflow: hidden;
         img {
           transition: 0.4s ease;
-          // filter: brightness(0.5);
+          filter: brightness(0.7);
           &:hover {
             transform: scale(1.1);
+            filter: brightness(0.7);
           }
         }
 
