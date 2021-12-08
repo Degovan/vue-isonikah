@@ -271,11 +271,30 @@
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import carousel from "vue-owl-carousel";
+const axios = require("axios");
 export default {
+  data() {},
+  methods: {},
   components: {
     Header,
     carousel,
     Footer,
+  },
+  mounted() {
+    // Make a request for a user with a given ID
+    axios
+      .get("")
+      .then(function (response) {
+        // handle success
+        console.log(response);
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
+      })
+      .then(function () {
+        // always executed
+      });
   },
 };
 </script>
