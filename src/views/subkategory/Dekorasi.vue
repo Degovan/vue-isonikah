@@ -35,7 +35,10 @@
         </div>
         <div class="wrapper-card">
           <div class="card">
-            <img src="../../assets/img/dekorasi1.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi1.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
@@ -53,7 +56,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi2.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi2.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
@@ -71,7 +77,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi3.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi3.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Wedding Modern</h1>
@@ -89,7 +98,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi4.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi4.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
@@ -107,7 +119,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi6.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi6.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
@@ -125,7 +140,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi7.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi7.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
@@ -143,11 +161,35 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/dekorasi8.jpg" alt="" />
+            <img
+              src="../../assets/img/dekorasi8.jpg"
+              alt="isonikah dekorasi image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Dekorasi Modern</h1>
               <h2>Rp 29.000.000</h2>
+              <p>Dekorasi</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../assets/img/dekorasi9.jpeg"
+              alt="isonikah dekorasi image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Dekorasi Couple love</h1>
+              <h2>Rp 12.000.000</h2>
               <p>Dekorasi</p>
             </div>
             <div class="footer-card">

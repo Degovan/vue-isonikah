@@ -21,7 +21,7 @@
             <br /><br />
             <button>Pesan Sekarang</button>
           </div>
-          <img src="../assets/img/gambar1.jpeg" alt="" />
+          <img src="../assets/img/gambar1.jpeg" alt="isonikah picture" />
         </div>
         <div class="item-carousel">
           <div class="content-item">
@@ -29,7 +29,7 @@
             <br /><br />
             <button>Pesan Sekarang</button>
           </div>
-          <img src="../assets/img/gambar2.jpeg" alt="" />
+          <img src="../assets/img/gambar2.jpeg" alt="isonikah picture" />
         </div>
         <div class="item-carousel">
           <div class="content-item">
@@ -37,7 +37,7 @@
             <br /><br />
             <button>Pesan Sekarang</button>
           </div>
-          <img src="../assets/img/gambar1.jpeg" alt="" />
+          <img src="../assets/img/gambar1.jpeg" alt="isonikah picture" />
         </div>
         <div class="item-carousel">
           <div class="content-item">
@@ -45,7 +45,7 @@
             <br /><br />
             <button>Pesan Sekarang</button>
           </div>
-          <img src="../assets/img/gambar2.jpeg" alt="" />
+          <img src="../assets/img/gambar2.jpeg" alt="isonikah picture" />
         </div>
       </carousel>
     </div>
@@ -72,7 +72,7 @@
             }"
           >
             <div class="card">
-              <img src="../assets/img/makanan.jpg" alt="" />
+              <img src="../assets/img/makanan.jpg" alt="isonikah picture" />
               <!-- bagian content card -->
               <div class="content-card">
                 <h1>Prasmanan Rendang & Sambal kentang</h1>
@@ -91,7 +91,10 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/gaun2-vendor.jpg" alt="" />
+              <img
+                src="../assets/img/gaun2-vendor.jpg"
+                alt="isonikah picture"
+              />
               <!-- bagian content card -->
               <div class="content-card">
                 <h1>Gaun Pernikahan</h1>
@@ -111,7 +114,7 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/bayi2.jpg" alt="" />
+              <img src="../assets/img/bayi2.jpg" alt="isonikah picture" />
               <!-- bagian content card -->
               <div class="content-card">
                 <h1>Sewa Fotografer</h1>
@@ -131,7 +134,10 @@
             </div>
             <div class="card">
               <!-- bagian image card  -->
-              <img src="../assets/img/makeup3-vendor.jpg" alt="" />
+              <img
+                src="../assets/img/makeup3-vendor.jpg"
+                alt="isonikah picture"
+              />
               <div class="content-card">
                 <h1>Makeup modern</h1>
                 <h2>Rp 800.000</h2>
@@ -370,7 +376,7 @@
           >
             <router-link to="/dekorasi">
               <div class="card">
-                <img src="../assets/img/dekorasi4.jpg" alt="" />
+                <img src="../assets/img/dekorasi4.jpg" alt="isonikah picture" />
                 <div class="content-card">
                   <h2>Dekorasi</h2>
                 </div>
@@ -378,7 +384,10 @@
             </router-link>
             <router-link to="/makeup">
               <div class="card">
-                <img src="../assets/img/makeup3-vendor.jpg" alt="" />
+                <img
+                  src="../assets/img/makeup3-vendor.jpg"
+                  alt="isonikah picture"
+                />
                 <div class="content-card">
                   <h2>Make up</h2>
                 </div>
@@ -386,7 +395,10 @@
             </router-link>
             <div class="card">
               <router-link to="/gaunnikah">
-                <img src="../assets/img/gaun2-vendor.jpg" alt="" />
+                <img
+                  src="../assets/img/gaun2-vendor.jpg"
+                  alt="isonikah picture"
+                />
                 <div class="content-card">
                   <h2>Gaun nikah & Tunangan</h2>
                 </div>
@@ -394,7 +406,7 @@
             </div>
             <router-link to="/fotografer">
               <div class="card">
-                <img src="../assets/img/bayi1.jpg" alt="" />
+                <img src="../assets/img/bayi1.jpg" alt="isonikah picture" />
                 <div class="content-card">
                   <h2>Fotografer</h2>
                 </div>
@@ -421,7 +433,10 @@
               <div class="avatar-box">
                 <div class="avatar-profile">
                   <div class="col-avatar">
-                    <img src="../assets/img/women1.jpg" alt="" />
+                    <img
+                      src="../assets/img/women1.jpg"
+                      alt="isonikah picture"
+                    />
                   </div>
                   <div class="col-avatar">
                     <h2>Nissa Sabyan</h2>
@@ -456,7 +471,7 @@
               <div class="avatar-box">
                 <div class="avatar-profile">
                   <div class="col-avatar">
-                    <img src="../assets/img/men1.jpg" alt="" />
+                    <img src="../assets/img/men1.jpg" alt="isonikah picture" />
                   </div>
                   <div class="col-avatar">
                     <h2>Irsyad</h2>

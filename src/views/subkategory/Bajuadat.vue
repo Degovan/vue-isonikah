@@ -35,12 +35,15 @@
         </div>
         <div class="wrapper-card">
           <div class="card">
-            <img src="../../assets/img/gaun1.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun1.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
               <h1>Rias Tangan Pengantin</h1>
               <h2>Rp 80.000 - 240.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -53,12 +56,15 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun2.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun2.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>Modern Make Up</h1>
+              <h1>Modern Gaun Pernikahan</h1>
               <h2>Rp 1.500.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -71,12 +77,15 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun3.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun3.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>Makeup pengantin</h1>
+              <h1>Gaun pengantin</h1>
               <h2>Rp 1.299.999</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -89,12 +98,15 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun4.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun4.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>MakeUp Pengantin</h1>
+              <h1>Gaun Pengantin</h1>
               <h2>Rp 2.200.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -107,12 +119,15 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun5.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun5.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>Makeup wajah pengantin</h1>
+              <h1>Gaun pengantin</h1>
               <h2>Rp 7.500.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -125,12 +140,15 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun6.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun6.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>Makeup pengantin</h1>
+              <h1>Gaun pengantin</h1>
               <h2>Rp 3.500.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
@@ -143,12 +161,78 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/img/gaun7.jpg" alt="" />
+            <img
+              src="../../assets/img/gaun7.jpg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
             <!-- bagian content card -->
             <div class="content-card">
-              <h1>Makeup pengantin</h1>
+              <h1>Gaun pengantin</h1>
               <h2>Rp 3.500.000</h2>
-              <p>Makeup</p>
+              <p>Gaun</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../assets/img/gaun8.jpeg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Gaun Pernikahan</h1>
+              <h2>Rp 3.500.000</h2>
+              <p>Gaun</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../assets/img/gaun9.jpeg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Gaun Couple</h1>
+              <h2>Rp 4.500.000</h2>
+              <p>Gaun</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../../assets/img/gaun10.jpeg"
+              alt="isonikah gaun & baju pernikahan image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Gaun Pernikahan Pink</h1>
+              <h2>Rp 3.500.000</h2>
+              <p>Gaun</p>
             </div>
             <div class="footer-card">
               <a href="#"
