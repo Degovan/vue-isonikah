@@ -6,7 +6,12 @@
           <div class="col-head">
             <div class="title-brand-icons">
               <router-link to="/">
-                <img src="../assets/img/logo-isonikah.png" />
+                <span>
+                  <img
+                    src="../assets/img/logo-isonikah.png"
+                    alt="logo isonikah"
+                  />
+                </span>
               </router-link>
             </div>
           </div>
@@ -24,7 +29,6 @@
                   aria-autocomplete="off"
                   autocomplete="off"
                   name="search"
-                 
                 />
                 <button><fa :icon="['fas', 'search']" /></button>
               </div>
@@ -32,8 +36,9 @@
           </div>
           <div class="col-head">
             <div class="auth-link">
-              <a href="#">Join member?</a
-              >|<a href="#"> are you a vendor?</a>
+              <a href="#">Gabung anggota?</a>|<a href="#">
+                Apakah anda seorang vendor?</a
+              >
             </div>
           </div>
           <div class="col-head">
@@ -55,12 +60,12 @@
       </div>
       <div class="menu-bar">
         <router-link to="/vendor">Vendor</router-link>
-        <router-link to="">Undangan Online</router-link>
-        <router-link to="">Paket Spesial</router-link>
-        <router-link to="">Promosi & Acara</router-link>
-        <router-link to="">Galeri</router-link>
-        <router-link to="">Event</router-link>
-        <router-link to="">Tentang</router-link>
+        <router-link to="/undanganonline">Undangan Online</router-link>
+        <router-link to="/paketspesial">Paket Spesial</router-link>
+        <router-link to="/promosi">Promosi & Acara</router-link>
+        <router-link to="/galeri">Galeri</router-link>
+        <router-link to="/event">Event</router-link>
+        <router-link to="/about">Tentang</router-link>
         <div class="menu-auth">
           <br /><br />
           <a href=""><button>Masuk</button></a>
@@ -99,7 +104,6 @@ export default {
       }, 380);
     },
   },
-  mounted(){
-  }
+  mounted() {},
 };
 </script>

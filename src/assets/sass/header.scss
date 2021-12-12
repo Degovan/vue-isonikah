@@ -50,6 +50,7 @@
           font-size: 20px;
           background-color: $secondary;
           border-top-right-radius: 8px;
+          border: 1px solid $secondary;
           border-bottom-right-radius: 8px;
           border-top-left-radius: 0px;
           border-bottom-left-radius: 0px;
@@ -71,6 +72,7 @@
             a {
               text-decoration: none;
               font-family: $poppins;
+              font-size: 13px;
               padding: 5px 10px;
               color: $secondary !important;
             }

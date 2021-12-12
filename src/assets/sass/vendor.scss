@@ -50,20 +50,23 @@
     }
     .wrapper-card {
       margin-top: 2rem;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-row-gap: 10px;
       .card {
         margin: 10px 14px;
-        display: inline-block;
         max-width: 350px;
         background-color: #fff;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         margin-top: 1rem;
         box-sizing: border-box;
-        img{
+        img {
           width: 100%;
         }
         .content-card {
           text-align: left;
           padding: 15px;
+          height: 150px;
           font-family: $poppins;
           h1 {
             font-size: 25px;
@@ -99,7 +102,7 @@
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 992px) and (min-width: 700px) {
   .vendor {
     .box-v1 {
       .head-box {
@@ -121,6 +124,8 @@
         }
       }
       .wrapper-card {
+        justify-items: center;
+        grid-template-columns: auto auto;
         .card {
           margin: 10px;
           max-width: 280px;
@@ -141,13 +146,33 @@
   }
 }
 
-@media only screen and (max-width: 599px) and (min-width: 400px) {
-  .vendor{
-    .box-v1{
-      .wrapper-card{
-        .card{
+@media only screen and (max-width: 699px) and (min-width: 320px) {
+  .vendor {
+    .box-v1 {
+      .head-box {
+        margin-top: 5rem;
+      }
+      .select-box {
+        .flex {
+          display: block;
+          .col {
+            select {
+              max-width: 100%;
+              width: 100%;
+            }
+            button {
+              width: 100%;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+      .wrapper-card {
+        display: grid;
+        grid-template-columns: auto;
+        .card {
           max-width: 100%;
-          img{
+          img {
             max-width: 100%;
           }
         }

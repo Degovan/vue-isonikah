@@ -37,7 +37,7 @@
           margin-top: -5rem;
           color: #fff;
           font-family: $poppins;
-          h2{
+          h2 {
             font-size: 18px;
           }
         }
@@ -52,7 +52,7 @@
     .head-box {
       text-align: center;
       //   border-bottom: 1px solid #dcdcdc;
-      margin-top: 0.2rem;
+      margin-top: 1rem;
       padding: 20px;
       h2 {
         font-family: $poppins;
@@ -75,12 +75,11 @@
           width: 100%;
           padding: 10px;
           select {
-            text-align: left;
             box-sizing: border-box;
             font-family: $poppins;
             padding: 10px;
-            border-radius: 8px;
             width: 100%;
+            border-radius: 8px;
             border: 1px solid #dcdcdc;
             border-bottom: 4px solid $secondary;
             width: 100%;
@@ -90,7 +89,7 @@
             background-color: $secondary;
             color: #000;
             font-family: $poppins;
-            padding: 12px 35px;
+            padding: 12px 40px;
             border: none;
             border-radius: 8px;
           }
@@ -98,22 +97,24 @@
       }
     }
     .wrapper-card {
-      text-align: left;
       margin-top: 2rem;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-row-gap: 10px;
       .card {
         margin: 10px 14px;
-        display: inline-block;
         max-width: 350px;
         background-color: #fff;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         margin-top: 1rem;
         box-sizing: border-box;
-        img{
+        img {
           width: 100%;
         }
         .content-card {
           text-align: left;
           padding: 15px;
+          height: 100px;
           font-family: $poppins;
           h1 {
             font-size: 25px;
@@ -148,24 +149,8 @@
     }
   }
 }
-@media only screen and (max-width: 780px) {
-  .kategory {
-    .box-v1 {
-      .head-box {
-        margin-top: 4rem;
-      }
-      .wrapper-card {
-        box-sizing: border-box;
-        .card {
-          box-sizing: border-box;
-          img {
-            max-width: 100%;
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
+
+@media only screen and (max-width: 992px) and (min-width: 700px) {
   #subkategory {
     .box-v1 {
       .head-box {
@@ -187,7 +172,8 @@
         }
       }
       .wrapper-card {
-        text-align: center;
+        justify-items: center;
+        grid-template-columns: auto auto;
         .card {
           margin: 10px;
           max-width: 280px;
@@ -208,13 +194,33 @@
   }
 }
 
-@media only screen and (max-width: 599px) and (min-width: 400px) {
-  #subkategory{
-    .box-v1{
-      .wrapper-card{
-        .card{
+@media only screen and (max-width: 699px) and (min-width: 320px) {
+  #subkategory {
+    .box-v1 {
+      .head-box {
+        margin-top: 5rem;
+      }
+      .select-box {
+        .flex {
+          display: block;
+          .col {
+            select {
+              max-width: 100%;
+              width: 100%;
+            }
+            button {
+              width: 100%;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+      .wrapper-card {
+        display: grid;
+        grid-template-columns: auto;
+        .card {
           max-width: 100%;
-          img{
+          img {
             max-width: 100%;
           }
         }

@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Vendor from '../views/Vendor.vue'
 import Kategory from '../views/Kategory.vue'
 import Fotograper from '../views/subkategory/Fotograper.vue'
 import MakeUp from '../views/subkategory/Makeup.vue'
 import BajuAdat from '../views/subkategory/Bajuadat.vue'
 import Dekorasi from '../views/subkategory/Dekorasi.vue'
+import Api from '../views/Api.vue'
+import Vendor from '../views/Vendor.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,6 +24,12 @@ const routes = [
     name: 'Vendor',
     component: Vendor,
     meta: { title: 'Isonikah.id - Vendor' }
+  },
+  {
+    path: '/api',
+    name: 'Api',
+    component: Api,
+    meta: { title: 'Isonikah.id - API' }
   },
   {
     path: '/kategory',
@@ -75,5 +82,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title
   next()
+  from()
+  to()
 })
 export default router
