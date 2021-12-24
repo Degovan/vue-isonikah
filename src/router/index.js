@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Kategory from '../views/Kategory.vue'
+import DetailProduct from '../views/Detail-Product.vue'
 import Fotograper from '../views/subkategory/Fotograper.vue'
 import MakeUp from '../views/subkategory/Makeup.vue'
 import BajuAdat from '../views/subkategory/Bajuadat.vue'
@@ -62,6 +63,12 @@ const routes = [
     meta: { title: 'Isonikah.id - Kategory Dekorasi' }
   },
   {
+    path: '/detail-product',
+    name: 'Detail-Produk',
+    component: DetailProduct,
+    meta: { title: 'Isonikah.id - Detail Produk' }
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
@@ -70,7 +77,7 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
 ]
 
 const router = new VueRouter({
