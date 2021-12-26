@@ -63,7 +63,7 @@ const routes = [
     meta: { title: 'Isonikah.id - Kategory Dekorasi' }
   },
   {
-    path: '/detail-product',
+    path: '/detail-product/:id',
     name: 'Detail-Produk',
     component: DetailProduct,
     meta: { title: 'Isonikah.id - Detail Produk' }

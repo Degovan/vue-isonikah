@@ -12,7 +12,7 @@ library.add(fas, far, fab);
 
 Vue.component('fa', FontAwesomeIcon);
 
-require('./assets/sass/main.css');
+require('./assets/css/main.css');
 require('./assets/css/animate.css');
 Vue.config.productionTip = false
 
