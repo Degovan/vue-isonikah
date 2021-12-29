@@ -8,13 +8,24 @@ import {fab} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
 
+// import module
+// import SubKategory from "./module/kategory"
+// import { registerModules } from "./register-modules.js";
+
 library.add(fas, far, fab);
 
 Vue.component('fa', FontAwesomeIcon);
 
+
+
 require('./assets/sass/main.css');
 require('./assets/css/animate.css');
 Vue.config.productionTip = false
+
+// registerModules({
+//   kategroy: SubKategory,
+//   // cart: cartModule
+// });
 
 new Vue({
   router,

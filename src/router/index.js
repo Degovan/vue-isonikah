@@ -7,6 +7,7 @@ import Fotograper from '../views/subkategory/Fotograper.vue'
 import MakeUp from '../views/subkategory/Makeup.vue'
 import BajuAdat from '../views/subkategory/Bajuadat.vue'
 import Dekorasi from '../views/subkategory/Dekorasi.vue'
+import AuthLogin from '../views/auth/login.vue'
 import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
 Vue.use(VueRouter)
@@ -25,6 +26,12 @@ const routes = [
     name: 'Vendor',
     component: Vendor,
     meta: { title: 'Isonikah.id - Vendor' }
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: AuthLogin,
+    meta: { title: 'Isonikah.id - Login' }
   },
   {
     path: '/api',

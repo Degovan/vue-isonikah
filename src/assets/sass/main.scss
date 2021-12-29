@@ -1,6 +1,7 @@
+@import "./@mediaqueries/responsive.scss";
 @import "_variable.scss";
-
 // header import from file
+@import "login.scss";
 
 @import "header.scss";
 
@@ -1075,5 +1076,5 @@ a {
 // katgory page css
 @import "kategory.scss";
 
-// 
+//
 @import "_detail-product.scss";

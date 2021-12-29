@@ -36,8 +36,9 @@
           </div>
           <div class="col-head">
             <div class="auth-link">
-              <a href="#">Gabung anggota?</a>|<a href="#">
-                Apakah anda seorang vendor?</a
+              <router-link to="/login">Gabung anggota?</router-link
+              >|<router-link to="/register">
+                Apakah anda seorang vendor?</router-link
               >
             </div>
           </div>
