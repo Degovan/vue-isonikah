@@ -5,6 +5,7 @@
       .col {
         background: #fff;
         width: 100%;
+        transition: all 0.4s ease;
         padding: 10px;
         height: 100vh;
         &:nth-child(1) {
@@ -60,12 +61,14 @@
                 .input-box-password {
                   display: flex;
                   .checkbox-pass {
+                    cursor: pointer;
                     box-sizing: border-box;
                     input {
                       box-sizing: border-box;
                       display: none;
                     }
                     .icon {
+                      cursor: pointer;
                       box-sizing: border-box;
                       color: $secondary;
                       padding: 10px;
@@ -103,6 +106,13 @@
         }
         &:nth-child(1) {
           max-width: 480px;
+          width: 100%;
+          @include tablet {
+            max-width: 100%;
+          }
+          @include mobile {
+            max-width: 100%;
+          }
         }
 
         #hint {

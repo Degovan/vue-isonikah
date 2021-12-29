@@ -15,13 +15,19 @@
               <div class="auth-body">
                 <p>Email atau nomor ponsel</p>
                 <div class="auth-input-box">
-                  <input type="text" name="" placeholder="" />
+                  <input type="text" name="" placeholder="" required />
                 </div>
                 <br />
                 <p>Kata sandi</p>
                 <div class="auth-input-box">
                   <div class="input-box-password">
-                    <input type="password" name="" placeholder="" />
+                    <input
+                      type="password"
+                      name=""
+                      placeholder=""
+                      id="passwordInput"
+                      required
+                    />
                     <label for="password-function" class="checkbox-pass">
                       <input type="checkbox" name="" id="password-function" />
                       <div class="icon-eye1 icon">
@@ -55,3 +61,27 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: {},
+  methods: {},
+  mounted() {
+    var showHidepass = document.querySelector("#password-function");
+    var iconEyeOne = document.querySelector(".icon-eye1");
+    var iconEyeTwo = document.querySelector(".icon-eye2");
+    var passInput = document.querySelector("#passwordInput");
+    showHidepass.addEventListener("click", function () {
+      if (showHidepass.checked == true) {
+        iconEyeOne.style.display = "none";
+        iconEyeTwo.style.display = "block";
+        passInput.type = "text";
+      } else {
+        iconEyeOne.style.display = "block";
+        iconEyeTwo.style.display = "none";
+        passInput.type = "password";
+      }
+    });
+  },
+};
+</script>
