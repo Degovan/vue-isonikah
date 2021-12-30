@@ -1,7 +1,8 @@
 <template>
-  <div id="auth-login">
+  <div id="auth-register">
     <div class="box-v1">
       <div class="flex-box">
+        <div class="col"></div>
         <div class="col">
           <div class="col-body">
             <div class="auth-box">
@@ -9,16 +10,41 @@
                 <img src="../../assets/img/logo-isonikah.png" alt="" />
               </div>
               <div class="auth-title">
-                <h2>Login</h2>
-                <p>Masuk dengan akun yang sudah terdaftar.</p>
+                <h2>Daftar</h2>
+                <p>Daftarkan akun sebagai member dari kami.</p>
               </div>
               <div class="auth-body">
-                <p>Email atau nomor ponsel</p>
+                <p>Masukan Nama</p>
                 <div class="auth-input-box">
-                  <input type="text" name="" placeholder="" required />
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="nama kamu?"
+                    required
+                  />
                 </div>
                 <br />
-                <p>Kata sandi</p>
+                <p>Alamat Email</p>
+                <div class="auth-input-box">
+                  <input
+                    type="email"
+                    name=""
+                    placeholder="Masukan alamat email yang ada"
+                    required
+                  />
+                </div>
+                <br />
+                <p>Nomor Ponsel (opsional)</p>
+                <div class="auth-input-box">
+                  <input
+                    type="number"
+                    name=""
+                    placeholder="contoh: +6208974xxxx"
+                    required
+                  />
+                </div>
+                <br />
+                <p>Buat Kata sandi</p>
                 <div class="auth-input-box">
                   <div class="input-box-password">
                     <input
@@ -45,18 +71,17 @@
                 <router-link to="/forgot-password"
                   >Lupa kata sandi?</router-link
                 >
-                <button>Masuk</button>
+                <button>Lanjutkan</button>
                 <br /><br />
               </div>
               <p id="hint">
-                Apakah akun mu belum terdaftar?<router-link to="/register"
-                  ><b>Daftar Sekarang</b></router-link
+                Sudah punya akun terdaftar?<router-link to="/login"
+                  ><b>Masuk!</b></router-link
                 >
               </p>
             </div>
           </div>
         </div>
-        <div class="col"></div>
       </div>
     </div>
   </div>
