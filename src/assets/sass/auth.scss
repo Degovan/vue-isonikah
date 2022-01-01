@@ -190,14 +190,14 @@
         width: 100%;
         transition: all 0.4s ease;
         padding: 10px;
-        height: 100vh;
         &:nth-child(1) {
           background: $primary;
         }
         .col-body {
+          max-width: 780px;
           padding: 30px;
           .auth-box {
-            margin-top: 2rem;
+            margin-top: 0rem;
             width: 100%;
             box-sizing: border-box;
             .auth-icon-brand {
@@ -315,31 +315,7 @@
           }
         }
         &:nth-child(1) {
-          background: linear-gradient(
-              rgba(245, 198, 165, 0.5),
-              rgba(245, 198, 165, 0.5)
-            ),
-            url(../img/banner-register.svg);
-          background-size: cover;
-          background-position: center;
-          @include tablet {
-            display: none;
-            height: auto;
-            .col-body {
-              .auth-body {
-                max-width: 100%;
-              }
-            }
-          }
-          @include mobile {
-            display: none;
-            height: auto;
-            .col-body {
-              .auth-body {
-                max-width: 100%;
-              }
-            }
-          }
+          background-color: $primary;
         }
         @include tablet {
           height: auto;

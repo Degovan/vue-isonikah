@@ -173,16 +173,16 @@
   width: 100%;
   transition: all 0.4s ease;
   padding: 10px;
-  height: 100vh;
 }
 #auth-register .box-v1 .flex-box .col:nth-child(1) {
   background: #242329;
 }
 #auth-register .box-v1 .flex-box .col .col-body {
+  max-width: 780px;
   padding: 30px;
 }
 #auth-register .box-v1 .flex-box .col .col-body .auth-box {
-  margin-top: 2rem;
+  margin-top: 0rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -302,27 +302,7 @@
   color: #F5C6A5;
 }
 #auth-register .box-v1 .flex-box .col:nth-child(1) {
-  background: linear-gradient(rgba(245, 198, 165, 0.5), rgba(245, 198, 165, 0.5)), url(../img/banner-register.svg);
-  background-size: cover;
-  background-position: center;
-}
-@media only screen and (max-width: 999px) and (min-width: 700px) {
-  #auth-register .box-v1 .flex-box .col:nth-child(1) {
-    display: none;
-    height: auto;
-  }
-  #auth-register .box-v1 .flex-box .col:nth-child(1) .col-body .auth-body {
-    max-width: 100%;
-  }
-}
-@media only screen and (max-width: 699px) and (min-width: 320px) {
-  #auth-register .box-v1 .flex-box .col:nth-child(1) {
-    display: none;
-    height: auto;
-  }
-  #auth-register .box-v1 .flex-box .col:nth-child(1) .col-body .auth-body {
-    max-width: 100%;
-  }
+  background-color: #242329;
 }
 @media only screen and (max-width: 999px) and (min-width: 700px) {
   #auth-register .box-v1 .flex-box .col {
