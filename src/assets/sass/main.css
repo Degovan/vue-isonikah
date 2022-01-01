@@ -50,7 +50,7 @@
 #auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box {
   background: transparent;
   border-radius: 4px;
-  border: 1px solid #302f37;
+  border: 1px solid #F5C6A5;
   margin-top: 1rem;
 }
 #auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box input {
@@ -76,20 +76,13 @@
 #auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box .input-box-password .checkbox-pass .icon {
   cursor: pointer;
   box-sizing: border-box;
-  color: #302f37;
+  color: #F5C6A5;
   padding: 10px;
   margin-top: 0.4rem;
   margin-right: 10px;
 }
 #auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box .input-box-password .checkbox-pass .icon-eye2 {
   display: none;
-}
-#auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box:hover {
-  background: #302f37;
-  border: 1px solid #F5C6A5;
-}
-#auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box:hover .input-box-password .checkbox-pass .icon {
-  color: #F5C6A5;
 }
 #auth-login .box-v1 .flex-box .col .col-body .auth-box .auth-body .auth-input-box:focus-within {
   background: #302f37;
