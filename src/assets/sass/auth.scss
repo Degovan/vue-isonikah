@@ -236,10 +236,39 @@
                   width: 100%;
                   background: transparent;
                   padding: 15px;
+                  appearance: none;
                   border: none;
                   font-family: $poppins;
                   color: $secondary;
                   box-sizing: border-box;
+                }
+                .flex-input {
+                  display: flex;
+                  select {
+                    padding: 15px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    background-color: transparent;
+                    border: none;
+                    appearance: none;
+                    color: $secondary;
+                    font-family: $poppins;
+                    option {
+                      background-color: $primary;
+                    }
+                  }
+                  button {
+                    width: 100%;
+                    max-width: 50px;
+                    border: none;
+                    color: $secondary;
+                    box-sizing: border-box;
+                    background-color: transparent;
+                    padding: 15px;
+                    &:active {
+                      transform: none;
+                    }
+                  }
                 }
                 .input-box-password {
                   display: flex;

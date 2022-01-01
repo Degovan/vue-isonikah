@@ -15,7 +15,13 @@
               <div class="auth-body">
                 <p>Email atau nomor ponsel</p>
                 <div class="auth-input-box">
-                  <input type="text" name="" placeholder="" required />
+                  <input
+                    type="text"
+                    name=""
+                    id="userphonemail"
+                    placeholder=""
+                    required
+                  />
                 </div>
                 <br />
                 <p>Kata sandi</p>
@@ -23,7 +29,7 @@
                   <div class="input-box-password">
                     <input
                       type="password"
-                      name=""
+                      name="password"
                       placeholder=""
                       id="passwordInput"
                       required
@@ -45,7 +51,7 @@
                 <router-link to="/forgot-password"
                   >Lupa kata sandi?</router-link
                 >
-                <button>Masuk</button>
+                <button @click="logged">Masuk</button>
                 <br /><br />
               </div>
               <p id="hint">
@@ -65,7 +71,33 @@
 <script>
 export default {
   data: {},
-  methods: {},
+  methods: {
+    logged: function () {
+      var user = document.querySelector("#userphonemail").value;
+      var pass = document.querySelector("#password").value;
+
+      const options = {
+        method: "POST",
+
+        // ubah url API ke public
+        url: "http://localhost:8000/api/auth/login",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        data: { credential: user, password: pass },
+      };
+
+      axios
+        .request(options)
+        .then(function (response) {
+          console.log(response.data);
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+    },
+  },
   mounted() {
     var showHidepass = document.querySelector("#password-function");
     var iconEyeOne = document.querySelector(".icon-eye1");
