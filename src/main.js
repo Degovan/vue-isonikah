@@ -1,4 +1,4 @@
-import Vue, { createApp } from 'vue';
+import Vue from 'vue';
 import App from './App.vue'
 import router from './router'
 import {library} from '@fortawesome/fontawesome-svg-core'
@@ -26,7 +26,7 @@ require('./assets/css/animate.css');
 //   // cart: cartModule
 // });
 
-createApp({
+new Vue({
+  router,
   render: function (h) { return h(App) }
-}).use(router).mount('#app')
-
+}).$mount('#app')
