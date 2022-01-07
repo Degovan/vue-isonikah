@@ -33,7 +33,7 @@ export default {
 
       const options = {
         method: "POST",
-        url: "http://localhost:8000/api/auth/login",
+        url: "https://backend.isonikah.id/api/auth/login",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -65,7 +65,7 @@ export default {
       var borndate = document.querySelector("#born_date").value;
       const options = {
         method: "POST",
-        url: "http://localhost:8000/api/auth/register",
+        url: "https://backend.isonikah.id/api/auth/register",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",

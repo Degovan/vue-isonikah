@@ -2,10 +2,13 @@
   "name": "isonikah",
   "version": "0.1.0",
   "private": true,
+  "description": "![vue!](src/assets/logo.png \"vue\")",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -13,37 +16,39 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "axios": "^0.24.0",
+    "cache-loader": "^4.1.0",
     "jquery": "^3.6.0",
-    "vue": "^2.6.11",
+    "plyr": "^3.6.12",
+    "vue": "^3.0.0-beta.1",
     "vue-owl-carousel": "^2.0.3",
     "vue-owl-carousel2": "^2.0.7",
-    "vue-router": "^3.2.0"
+    "vue-router": "^4.0.0-alpha.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
     "laravel-mix": "^6.0.39",
+    "prettier": "^1.12.0",
     "resolve-url-loader": "^4.0.0",
     "sass": "^1.45.1",
     "sass-loader": "^12.1.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vue-next": "~0.1.4",
+    "webpack": "^4.46.0"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
   ],
-  "description": "![vue!](src/assets/logo.png \"vue\")",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Degovan/vue-isonikah.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Degovan/vue-isonikah/issues"
   },
-  "homepage": "https://github.com/Degovan/vue-isonikah#readme"
+  "homepage": "https://github.com/Degovan/vue-isonikah#readme",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Degovan/vue-isonikah.git"
+  }
 }

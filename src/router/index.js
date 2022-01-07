@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue'
 import Kategory from '../views/Kategory.vue'
-import DetailProduct from '../views/Detail-Product.vue'
+import DetailProduct from '../views/DetailProduct.vue'
 import Fotograper from '../views/subkategory/Fotograper.vue'
 import MakeUp from '../views/subkategory/Makeup.vue'
 import BajuAdat from '../views/subkategory/Bajuadat.vue'
@@ -11,7 +10,6 @@ import AuthLogin from '../views/auth/login.vue'
 import AuthReg from '../views/auth/register.vue'
 import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
-Vue.use(VueRouter)
 
 const routes = [
   
@@ -94,9 +92,8 @@ const routes = [
   },
 ]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
