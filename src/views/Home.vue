@@ -474,7 +474,7 @@
                     <img src="../assets/img/men1.jpg" alt="isonikah picture" />
                   </div>
                   <div class="col-avatar">
-                    <h2>Irsyad</h2>
+                    <h2>Jhon Doe</h2>
                     <p>Client Wedding</p>
                   </div>
                   <div class="col-avatar">
