@@ -1891,5 +1891,66 @@ a {
 .detail-product .box-v2 .grid-container .col-grid:nth-child(2) {
   border-left: 1px solid #dcdcdc;
 }
+.detail-product .box-v2 #tab-on-dp {
+  margin-top: 2rem;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav {
+  width: 100%;
+  text-align: left;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-left: 0;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav ul li {
+  box-sizing: border-box;
+  max-width: 300px;
+  text-align: left;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav ul a {
+  font-size: 20px;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav ul .active {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .line {
+  background-color: #dcdcdc;
+  width: 100%;
+  box-sizing: border-box;
+  height: 2px;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab {
+  margin-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  align-items: left;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect {
+  max-width: 400px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect video {
+  box-sizing: border-box !important;
+  width: 100%;
+  height: 320px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
 
 /*# sourceMappingURL=main.css.map */

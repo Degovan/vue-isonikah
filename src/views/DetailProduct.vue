@@ -50,23 +50,63 @@
             </div>
           </div>
           <div class="col-grid">
-  
+            <button>Pesan Sekarang</button>
           </div>
         </div>
+        <div id="tab-on-dp">
+      <TabNav :tabs="['Koleksi','Ulasan', 'Tentang']" :selected="selected" @selected="setSelected">
+        <br><br>
+        <div class="line"></div>
+        <br>
+      <Tab :isSelected="selected === 'Koleksi'">
+        <div class="wrapper-collection">
+          <div class="col-collect">
+            <video src="" controls autoplay ></video>
+            <div class="body-collect">
+              
+            </div>
+          </div>
+        </div>
+      </Tab>
+      <Tab :isSelected="selected === 'Ulasan'">
+        <p>Ulasan</p>
+      </Tab>
+      <Tab :isSelected="selected === 'Tentang'">
+        <p>Tentang</p>
+      </Tab>
+    </TabNav>
       </div>
+      </div>
+      
     </div>
+   
   </div>
 </template>
 
 <script>
 import Plyr from "plyr";
 import Header from "../components/Header.vue";
+import TabNav from '../components/TabNav.vue';
+import Tab from '../components/Tab.vue';
 export default {
   components: {
     Header,
+    TabNav,
+    Tab,
+
   },
   mounted() {
     const player = new Plyr("#player");
   },
+  data(){
+    return{
+      selected: 'Koleksi'
+    }
+  },
+  methods:{
+    setSelected(tab){
+      this.selected = tab;
+    }
+  }
 };
 </script>
