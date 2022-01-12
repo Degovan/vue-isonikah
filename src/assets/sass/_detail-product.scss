@@ -113,20 +113,48 @@
           .wrapper-collection{
             display: grid;
             grid-template-columns: auto auto auto;
-            grid-template-rows: auto;
-            align-items: left;
+            grid-gap: 20px;
+            grid-row: 20px;
             .col-collect{
-              max-width: 400px;
+              max-width: 380px;
+              width: 100%;
               border: 1px solid  #dcdcdc;
               border-radius: 8px;
               box-sizing: border-box;
-             video{
-               box-sizing: border-box !important;
-               width: 100%;
-               height: 320px;
-               border-top-left-radius: 8px;
-               border-top-right-radius: 8px;
-             }
+              margin-left: 0;
+              img{
+                width: 100%;
+                box-sizing: border-box;
+                object-fit: cover;
+                height: 480px;
+                filter: brightness(0.5);
+              }
+              .btn-play{
+                font-size: 30px;
+                padding: 20px;
+                width: 80px;
+                border-radius: 100%;
+                margin-left: 9rem;
+                margin-top: 13rem;
+                z-index: 999;
+                position: absolute;
+                border: none;
+                background-color: $primary;
+                color: $secondary;
+              }
+              .body-collect{
+                color: #fff;
+                z-index: 999;
+                position: absolute;
+                padding: 20px;
+                .content-collect{
+                 h2{
+                  font-family: $poppins;
+                  float: right;
+                  margin-top: 25rem;
+                 }
+                }
+              }
             }
           }
         }

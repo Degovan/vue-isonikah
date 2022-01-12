@@ -1,12 +1,11 @@
 @import "./@mediaqueries/responsive.scss";
 @import "_variable.scss";
+
 // header import from file
 @import "auth.scss";
-
 @import "header.scss";
 
 // footer import from file
-
 @import "footer.scss";
 
 * {
@@ -21,7 +20,6 @@
   --plyr-control-radius: 8px;
   --plyr-font-family: 'Poppins', sans-serif;
 }
-
 .closebar {
   display: none;
 }
@@ -1100,5 +1098,4 @@ a {
 // katgory page css
 @import "kategory.scss";
 
-//
 @import "_detail-product.scss";

@@ -215,7 +215,9 @@
   width: 100%;
   background: transparent;
   padding: 15px;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: none;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #F5C6A5;
@@ -230,7 +232,9 @@
   box-sizing: border-box;
   background-color: transparent;
   border: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   color: #F5C6A5;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -388,6 +392,12 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+#header .header .flex-header .col-head .input-search input::-moz-placeholder {
+  color: #F5C6A5;
+}
+#header .header .flex-header .col-head .input-search input:-ms-input-placeholder {
+  color: #F5C6A5;
+}
 #header .header .flex-header .col-head .input-search input::placeholder {
   color: #F5C6A5;
 }
@@ -535,7 +545,10 @@
 * {
   margin: 0 auto;
   padding: 0 auto;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -628,16 +641,20 @@ a {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-name: zoomInUp;
-  animation-delay: 0.3s;
+  -webkit-animation-name: zoomInUp;
+          animation-name: zoomInUp;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .home .box-p1 .owl-item.active .item-carousel .content-item button {
   -webkit-animation-duration: 2s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-name: bounceInUp;
-  animation-delay: 0.3s;
+  -webkit-animation-name: bounceInUp;
+          animation-name: bounceInUp;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .home .box-p1 .item-carousel {
   width: 100%;
@@ -1085,7 +1102,8 @@ a {
   border-radius: 50%;
   max-width: 80px;
   height: 80px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .home .box-p5 .wrapper-rate .rate-box .avatar-box .avatar-profile .col-avatar:nth-child(1) {
   text-align: center;
@@ -1153,7 +1171,8 @@ a {
     box-sizing: border-box;
     width: 100%;
     display: none;
-    animation: slideInDown 0.5s ease-in;
+    -webkit-animation: slideInDown 0.5s ease-in;
+            animation: slideInDown 0.5s ease-in;
     left: 0;
     background-color: #242329;
     right: 0;
@@ -1179,7 +1198,8 @@ a {
     display: none;
     top: 0;
     height: 100vh;
-    animation: slideInLeft 0.4s ease-in;
+    -webkit-animation: slideInLeft 0.4s ease-in;
+            animation: slideInLeft 0.4s ease-in;
   }
   #header .small-header .menu-bar {
     margin-top: 5rem;
@@ -1731,7 +1751,8 @@ a {
 #subkategory .box-v1 .wrapper-card .card img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #subkategory .box-v1 .wrapper-card .card .content-card {
   text-align: left;
@@ -1866,7 +1887,8 @@ a {
   max-width: 80px;
   width: 80px;
   height: 80px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .detail-product .box-v2 .grid-container .col-grid .profile-wrapper .profile-info label {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1936,21 +1958,46 @@ a {
 .detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  align-items: left;
+  grid-gap: 20px;
+  grid-row: 20px;
 }
 .detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect {
-  max-width: 400px;
+  max-width: 380px;
+  width: 100%;
   border: 1px solid #dcdcdc;
   border-radius: 8px;
   box-sizing: border-box;
+  margin-left: 0;
 }
-.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect video {
-  box-sizing: border-box !important;
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect img {
   width: 100%;
-  height: 320px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 480px;
+  filter: brightness(0.5);
 }
-
-/*# sourceMappingURL=main.css.map */
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect .btn-play {
+  font-size: 30px;
+  padding: 20px;
+  width: 80px;
+  border-radius: 100%;
+  margin-left: 9rem;
+  margin-top: 13rem;
+  z-index: 999;
+  position: absolute;
+  border: none;
+  background-color: #242329;
+  color: #F5C6A5;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect .body-collect {
+  color: #fff;
+  z-index: 999;
+  position: absolute;
+  padding: 20px;
+}
+.detail-product .box-v2 #tab-on-dp #Tabnav .tab .wrapper-collection .col-collect .body-collect .content-collect h2 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  float: right;
+  margin-top: 25rem;
+}/*# sourceMappingURL=main.css.map */

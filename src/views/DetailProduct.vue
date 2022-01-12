@@ -1,7 +1,6 @@
 <template>
   <div class="detail-product">
     <Header />
-
     <div class="box-v1">
       <div class="container">
         <div class="wrapper-video">
@@ -61,10 +60,13 @@
       <Tab :isSelected="selected === 'Koleksi'">
         <div class="wrapper-collection">
           <div class="col-collect">
-            <video src="" controls autoplay ></video>
-            <div class="body-collect">
-              
+           <div class="body-collect">
+              <div class="content-collect">
+                <h2>Hello</h2>
+              </div>
             </div>
+          <button class="btn-play"><fa :icon="['fas','play']" /></button>
+             <img src="../assets/img/dt-card.jpg" alt="">
           </div>
         </div>
       </Tab>
