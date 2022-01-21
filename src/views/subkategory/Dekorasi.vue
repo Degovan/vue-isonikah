@@ -37,7 +37,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi1.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -58,7 +58,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi2.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -79,7 +79,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi3.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -100,7 +100,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi4.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -121,7 +121,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi6.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -142,7 +142,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi7.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -163,7 +163,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi8.jpg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -184,7 +184,7 @@
           <div class="card">
             <img
               src="../../assets/img/dekorasi9.jpeg"
-              alt="isonikah dekorasi image"
+              alt="Spillmoment dekorasi image"
             />
             <!-- bagian content card -->
             <div class="content-card">

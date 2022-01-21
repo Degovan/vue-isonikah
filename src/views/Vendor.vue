@@ -45,7 +45,7 @@
         </div>
         <div class="wrapper-card">
           <div class="card" v-for="product in products" v-bind:key="product.id">
-            <img :src="`https://backend.isonikah.id/api/product${product.photos}`" alt="" />
+            <img :src="`https://backend.Spillmoment.id/api/product${product.photos}`" alt="" />
             
             <!-- bagian content card -->
             <div class="content-card">

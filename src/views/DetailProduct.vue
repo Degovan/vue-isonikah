@@ -58,6 +58,9 @@
         <div class="line"></div>
         <br>
       <Tab :isSelected="selected === 'Koleksi'">
+        <div id="collection">
+          <p>Menampilkan 100 dari semua hasil</p>
+        <br><br>
         <div class="wrapper-collection">
           <div class="col-collect">
            <div class="body-collect">
@@ -69,6 +72,8 @@
              <img src="../assets/img/dt-card.jpg" alt="">
           </div>
         </div>
+        </div>
+        
       </Tab>
       <Tab :isSelected="selected === 'Ulasan'">
         <p>Ulasan</p>

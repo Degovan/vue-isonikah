@@ -37,7 +37,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun1.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -58,7 +58,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun2.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -79,7 +79,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun3.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -100,7 +100,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun4.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -121,7 +121,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun5.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -142,7 +142,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun6.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -163,7 +163,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun7.jpg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -184,7 +184,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun8.jpeg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -205,7 +205,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun9.jpeg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -226,7 +226,7 @@
           <div class="card">
             <img
               src="../../assets/img/gaun10.jpeg"
-              alt="isonikah gaun & baju pernikahan image"
+              alt="Spillmoment gaun & baju pernikahan image"
             />
             <!-- bagian content card -->
             <div class="content-card">

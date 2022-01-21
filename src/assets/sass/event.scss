@@ -1,0 +1,159 @@
+#event{
+    // background-color: #F5F5F5;
+    .box-v1{
+        padding: 10px;
+        font-family: $poppins;
+        .title-box{
+            margin-top: 2rem;
+            text-align: center;
+            h2{
+                font-size: 30px;
+                color: $primary;
+            }
+            p{
+                color: grey;
+            }
+            @include mobile{
+                margin-top: 8rem;
+            }
+        }
+        .wrapper-combo-box{
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+            display: flex;
+            gap: 20px;
+            border-radius: 4px;
+            .combo-box{
+                width: 100%;
+                box-sizing: border-box;
+                select{
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 4px;
+                    font-family: $poppins;
+                    border: 1px solid #dcdcdc;
+                }
+            }
+            @include mobile{
+                display: block;
+                .combo-box{
+                    margin-top: 2rem;
+                }
+            }
+        }
+        .wrapper-card{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            row-gap: 20px;
+            margin-top: 4rem;
+            @include mobile{
+                grid-template-columns: auto;
+            }
+            .card{
+                max-width: 380px;
+                box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+                width: 100%;
+                background-color: #fff;
+                margin-left: 0;
+                img{
+                    width: 100%;
+                    // border: 1px solid #dcdcdc;
+                    box-sizing: border-box;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                .content-card{
+                    padding: 15px;
+                    h2{
+                        font-size: 20px;
+                        color: #333;
+                    }
+                    .badge-wrap{
+                        margin-top: 10px;
+                        .badge{
+                            margin-left: 0;
+                            background-color: blue;
+                            padding: 8px 10px;
+                            text-align: center;
+                            border-radius: 4px;
+                            font-size: 10px;
+                            font-family: $poppins;
+                            font-weight: bold;
+                            color: #fff;
+                            border: none;
+                            label{
+                                color: #f2f2f2;
+                                margin-left: 10px;
+    
+                            }
+                        }
+                        .paid{
+                            margin-left: 10px;
+                            background-color: gold;
+                            color: #333;
+                            label{
+                                color: #333;
+                            }
+                        }
+                        .started{
+                            // margin-left: 10px;
+                            background-color: limegreen;
+                            p{
+                                color: #fff;
+                            }
+                        }
+                        .ended{
+                            background-color: maroon;
+                            color: #fff;
+                        }
+                    }
+                    .info-tanggal{
+                        font-size: 15px;
+                        color: grey;
+                        label{
+                            margin-left: 10px;
+                        }
+                    }
+                    .info-jam{
+                        font-size: 15px;
+                        color: grey;
+                        label{
+                            margin-left: 10px;
+                        }
+                    }
+                    .info-anggota{
+                        font-size: 15px;
+                        color: grey;
+                        label{
+                            margin-left: 10px;
+                        }
+                    }
+                    .btn-event{
+                        padding: 10px;
+                        width: 100%;
+                        box-sizing: border-box;
+                        border: 1px solid transparent;
+                        background-color: $secondary;
+                        color: $primary;
+                        border-radius: 4px;
+                        font-family: $poppins;
+                        font-weight: bold;
+                    }
+                    
+                }
+            }
+            @include mobile{
+                grid-template-columns: auto;
+                .card{
+                    width: 100%;
+                    max-width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        
+    }
+}

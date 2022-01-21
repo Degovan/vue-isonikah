@@ -37,7 +37,7 @@
           <div class="card">
             <img
               src="../../assets/img/riastangan.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -59,7 +59,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup1.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -81,7 +81,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup2.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -103,7 +103,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup3.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -125,7 +125,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup4.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -147,7 +147,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup5.jpg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -169,7 +169,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup8.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -191,7 +191,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup6.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -213,7 +213,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup7.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -235,7 +235,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup9.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -257,7 +257,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup10.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -279,7 +279,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup11.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -301,7 +301,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup12.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -323,7 +323,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup13.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -345,7 +345,7 @@
           <div class="card">
             <img
               src="../../assets/img/makeup17.jpeg"
-              alt="isonikah makeup image"
+              alt="Spillmoment makeup image"
             />
             <!-- bagian content card -->
             <div class="content-card">

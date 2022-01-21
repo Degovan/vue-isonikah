@@ -11,6 +11,7 @@ import AuthLogin from '../views/auth/login.vue'
 import AuthReg from '../views/auth/register.vue'
 import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
+import Event from '../views/Event.vue'
 Vue.use(VueRouter)
 const routes = [
   
@@ -18,68 +19,74 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    meta: { title: 'Isonikah.id | Rencanakan Pernikahanmu Pada Kami'}
+    meta: { title: 'Spillmoment | Rencanakan Pernikahanmu Pada Kami'}
     
   },
   {
     path: '/vendor',
     name: 'Vendor',
     component: Vendor,
-    meta: { title: 'Isonikah.id - Vendor' }
+    meta: { title: 'Spillmoment - Vendor' }
   },
   {
     path: '/login',
     name: 'Login',
     component: AuthLogin,
-    meta: { title: 'Isonikah.id - Login' }
+    meta: { title: 'Spillmoment - Login' }
   },
   {
     path: '/register',
     name: 'Register',
     component: AuthReg,
-    meta: { title: 'Isonikah.id - Daftar' }
+    meta: { title: 'Spillmoment - Daftar' }
   },
   {
     path: '/api',
     name: 'Api',
     component: Api,
-    meta: { title: 'Isonikah.id - API' }
+    meta: { title: 'Spillmoment - API' }
+  },
+  {
+    path: '/event',
+    name: 'Event',
+    component: Event,
+    meta: { title: 'Spillmoment - Event' }
   },
   {
     path: '/kategory',
     name: 'Kategory',
     component: Kategory,
-    meta: { title: 'Isonikah.id - Kategory' }
+    meta: { title: 'Spillmoment - Kategory' }
   },
   {
     path: '/fotografer',
     name: 'Fotografer',
     component: Fotograper,
-    meta: { title: 'Isonikah.id - Kategory Fotografer' }
+    meta: { title: 'Spillmoment - Kategory Fotografer' }
   },
   {
     path: '/makeup',
     name: 'Makeup',
     component: MakeUp,
-    meta: { title: 'Isonikah.id - Kategory Make up' }
+    meta: { title: 'Spillmoment - Kategory Make up' }
   },
   {
     path: '/gaunnikah',
     name: 'Bajuadat',
     component: BajuAdat,
-    meta: { title: 'Isonikah.id - Gaun nikah & Tunangan' }
+    meta: { title: 'Spillmoment - Gaun nikah & Tunangan' }
   },
   {
     path: '/dekorasi',
     name: 'Dekorasi',
     component: Dekorasi,
-    meta: { title: 'Isonikah.id - Kategory Dekorasi' }
+    meta: { title: 'Spillmoment - Kategory Dekorasi' }
   },
   {
     path: '/detail-product',
     name: 'Detail-Produk',
     component: DetailProduct,
-    meta: { title: 'Isonikah.id - Detail Produk' }
+    meta: { title: 'Spillmoment - Detail Produk' }
   },
   {
     path: '/about',

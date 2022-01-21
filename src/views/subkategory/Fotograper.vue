@@ -37,7 +37,7 @@
           <div class="card">
             <img
               src="../../assets/img/bayi1.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -58,7 +58,7 @@
           <div class="card">
             <img
               src="../../assets/img/photograph1.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -79,7 +79,7 @@
           <div class="card">
             <img
               src="../../assets/img/bayi2.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -100,7 +100,7 @@
           <div class="card">
             <img
               src="../../assets/img/bayi3.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -121,7 +121,7 @@
           <div class="card">
             <img
               src="../../assets/img/bayi4.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">
@@ -142,7 +142,7 @@
           <div class="card">
             <img
               src="../../assets/img/bayi5.jpg"
-              alt="isonikah fotografer image"
+              alt="Spillmoment fotografer image"
             />
             <!-- bagian content card -->
             <div class="content-card">

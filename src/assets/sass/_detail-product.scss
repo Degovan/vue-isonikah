@@ -25,6 +25,10 @@
       display: flex;
       gap: 20px;
       padding: 10px;
+      @include mobile{
+        display: block;
+        
+      }
       .col-grid{
         width: 100%;
         padding: 20px;
@@ -110,11 +114,16 @@
           margin-top: 2rem;
           width: 100%;
           box-sizing: border-box;
+          #collection{
+            font-family: $poppins;
           .wrapper-collection{
             display: grid;
             grid-template-columns: auto auto auto;
             grid-gap: 20px;
             grid-row: 20px;
+            @include mobile{
+              grid-template-columns: auto;
+            }
             .col-collect{
               max-width: 380px;
               width: 100%;
@@ -158,6 +167,7 @@
             }
           }
         }
+       } 
       }
     }
   }

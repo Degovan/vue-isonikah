@@ -5,7 +5,7 @@
         <div class="footer-body">
           <div class="flex-footer">
             <div class="col-footer">
-              <img src="../assets/img/logo-with-name.png" alt="logo isonikah" />
+              <img src="../assets/img/logo-spillmoment.png" alt="logo Spillmoment" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 sint quibusdam officia ut necessitatibus aperiam eveniet, quasi
@@ -39,7 +39,7 @@
                 <br />
                 <div class="menu-social">
                   <div class="item">
-                    <a href="https://www.instagram.com/isonikah.id/"
+                    <a href="https://www.instagram.com/Spillmoment/"
                       ><fa :icon="['fab', 'instagram']"
                     /></a>
                   </div>
@@ -60,7 +60,7 @@
       </div>
     </footer>
     <div class="small-footer">
-      <p>&copy; Isonikah.id 2021 Allright Reserved</p>
+      <p>&copy; Spillmoment 2021 Allright Reserved</p>
     </div>
   </div>
 </template>

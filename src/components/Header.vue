@@ -8,7 +8,7 @@
               <router-link to="/">
                 <span>
                   <img
-                    src="../assets/img/logo-isonikah.png"
+                    src="../assets/img/logo-spillmoment.png"
                     alt="logo isonikah"
                   />
                 </span>

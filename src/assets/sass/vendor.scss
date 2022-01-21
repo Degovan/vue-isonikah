@@ -52,12 +52,15 @@
       margin-top: 2rem;
       display: grid;
       grid-template-columns: auto auto auto;
-      grid-row-gap: 10px;
+      grid-gap: 10px;
+      margin: 0px 0px 0px 0px;
       .card {
-        max-width: 350px;
+        max-width: 380px;
+        width: 100%;
         background-color: #fff;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         margin-top: 1rem;
+        margin-left: 0;
         box-sizing: border-box;
         img {
           width: 100%;
@@ -126,7 +129,7 @@
         justify-items: center;
         grid-template-columns: auto auto;
         .card {
-          margin: 10px;
+         margin-left: 0;
           max-width: 280px;
           img {
             max-width: 280px;

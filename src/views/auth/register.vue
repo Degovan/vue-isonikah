@@ -6,7 +6,7 @@
           <div class="col-body">
             <div class="auth-box">
               <div class="auth-icon-brand">
-                <img src="../../assets/img/logo-isonikah.png" alt="" />
+                <img src="../../assets/img/logo-spillmoment.png" alt="" />
               </div>
               <div class="auth-title">
                 <h2>Daftar</h2>
