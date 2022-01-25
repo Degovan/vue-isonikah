@@ -15,7 +15,7 @@
                         max-width: 180px;
                     }
                     p{
-                        color: #555555;
+                        color: grey;
                         word-break: break-all;
                     }
                   
@@ -27,7 +27,7 @@
                         }
                         a{
                             display: block;
-                            color: #555555;
+                            color: grey;
                             &:hover{
                                 color: $secondary;
                             }

@@ -12,6 +12,7 @@ import AuthReg from '../views/auth/register.vue'
 import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
 import Event from '../views/Event.vue'
+import EventDetail from '../views/EventDetail.vue'
 Vue.use(VueRouter)
 const routes = [
   
@@ -40,17 +41,23 @@ const routes = [
     component: AuthReg,
     meta: { title: 'Spillmoment - Daftar' }
   },
-  {
-    path: '/api',
-    name: 'Api',
-    component: Api,
-    meta: { title: 'Spillmoment - API' }
-  },
+  // {
+  //   path: '/api',
+  //   name: 'Api',
+  //   component: Api,
+  //   meta: { title: 'Spillmoment - API' }
+  // },
   {
     path: '/event',
     name: 'Event',
     component: Event,
     meta: { title: 'Spillmoment - Event' }
+  },
+  {
+    path: '/event-detail',
+    name: 'Event-detail',
+    component: EventDetail,
+    meta: { title: 'Spillmoment - Detail Event' }
   },
   {
     path: '/kategory',

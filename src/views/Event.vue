@@ -26,12 +26,13 @@
                         <option>- Pilih tipe event -</option>
                     </select>
                 </div>
-                 <div class="combo-box">
+                 <!-- <div class="combo-box">
                     <p>Vendor Event</p><br>
                     <select name="" id="" class="select-combox">
                         <option>- Cari nama vendor -</option>
                     </select>
-                </div>
+                </div> -->
+                <!-- <br><br> -->
             </div>
              <div class="wrapper-card">
               <!-- tambahkan data v-for disini -->
