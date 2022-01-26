@@ -8,8 +8,8 @@
               <router-link to="/">
                 <span>
                   <img
-                    src="../assets/img/logo-spillmoment.png"
-                    alt="logo isonikah"
+                    src="../assets/img/logo.png"
+                    alt="logo spillmoment"
                   />
                 </span>
               </router-link>

@@ -1,6 +1,6 @@
 <template>
   <div id="subkategory">
-    <Header />
+    
     <div class="box-v1">
       <div class="container">
         <div class="head-box">
@@ -206,18 +206,7 @@
       </div>
     </div>
     <br />
-
-    <Footer />
   </div>
 </template>
 <style scoped></style>
-<script>
-import Header from "../../components/Header.vue";
-import Footer from "../../components/Footer.vue";
-export default {
-  components: {
-    Header,
-    Footer,
-  },
-};
-</script>
+

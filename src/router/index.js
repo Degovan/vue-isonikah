@@ -9,10 +9,11 @@ import BajuAdat from '../views/subkategory/Bajuadat.vue'
 import Dekorasi from '../views/subkategory/Dekorasi.vue'
 import AuthLogin from '../views/auth/login.vue'
 import AuthReg from '../views/auth/register.vue'
-import Api from '../views/Api.vue'
+// import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
 import Event from '../views/Event.vue'
 import EventDetail from '../views/EventDetail.vue'
+import Notfound from '../views/Notfound.vue'
 Vue.use(VueRouter)
 const routes = [
   
@@ -27,83 +28,90 @@ const routes = [
     path: '/vendor',
     name: 'Vendor',
     component: Vendor,
-    meta: { title: 'Spillmoment - Vendor' }
+    meta: { title: 'Vendor | Spillmoment'}
   },
   {
     path: '/login',
     name: 'Login',
     component: AuthLogin,
-    meta: { title: 'Spillmoment - Login' }
+    meta: { title: 'Login | Spillmoment', hideNavigation: true }
   },
   {
     path: '/register',
     name: 'Register',
     component: AuthReg,
-    meta: { title: 'Spillmoment - Daftar' }
+    meta: { title: 'Daftar | Spillmoment', hideNavigation: true }
   },
   // {
   //   path: '/api',
   //   name: 'Api',
   //   component: Api,
-  //   meta: { title: 'Spillmoment - API' }
+  //   meta: { title: 'Spillmoment | API' }
   // },
   {
     path: '/event',
     name: 'Event',
     component: Event,
-    meta: { title: 'Spillmoment - Event' }
+    meta: { title: 'Event | Spillmoment' }
   },
   {
-    path: '/event-detail',
-    name: 'Event-detail',
+    path: '/event|detail',
+    name: 'Event|detail',
     component: EventDetail,
-    meta: { title: 'Spillmoment - Detail Event' }
+    meta: { title: 'Detail Event | Spillmoment' }
   },
   {
     path: '/kategory',
     name: 'Kategory',
     component: Kategory,
-    meta: { title: 'Spillmoment - Kategory' }
+    meta: { title: 'Kategory | Spillmoment' }
   },
   {
     path: '/fotografer',
     name: 'Fotografer',
     component: Fotograper,
-    meta: { title: 'Spillmoment - Kategory Fotografer' }
+    meta: { title: 'Kategory Fotografer | Spillmoment' }
   },
   {
     path: '/makeup',
     name: 'Makeup',
     component: MakeUp,
-    meta: { title: 'Spillmoment - Kategory Make up' }
+    meta: { title: 'Kategory Make up | Spillmoment' }
   },
   {
     path: '/gaunnikah',
     name: 'Bajuadat',
     component: BajuAdat,
-    meta: { title: 'Spillmoment - Gaun nikah & Tunangan' }
+    meta: { title: 'Gaun nikah & Tunangan | Spillmoment' }
   },
   {
     path: '/dekorasi',
     name: 'Dekorasi',
     component: Dekorasi,
-    meta: { title: 'Spillmoment - Kategory Dekorasi' }
+    meta: { title: 'Kategory Dekorasi | Spillmoment' }
   },
   {
-    path: '/detail-product',
-    name: 'Detail-Produk',
+    path: '/detail|product',
+    name: 'Detail|Produk',
     component: DetailProduct,
-    meta: { title: 'Spillmoment - Detail Produk' }
+    meta: { title: 'Detail Product | Spillmoment' }
   },
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
+    // route level code|splitting
     // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    // which is lazy|loaded when the route is visited.
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
+  },
+  {
+    path: '*',
+    name: 'Notfound',
+    component: Notfound,
+    meta: { title: 'Opps Not found! | Spillmoment'}
+    
   },
 ]
 
@@ -118,4 +126,7 @@ router.beforeEach((to, from, next) => {
   from()
   to()
 })
+
+
+
 export default router

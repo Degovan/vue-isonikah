@@ -1,6 +1,6 @@
 <template>
   <div class="vendor">
-    <Header />
+  
     <div class="box-v1">
       <div class="head-box">
         <div class="container">
@@ -74,21 +74,20 @@
         </div>
       </div>
     </div>
-    <Footer />
+
   </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+
 import carousel from "vue-owl-carousel";
 import axios from 'axios'
 
 export default {
   components: {
-    Header,
+    
     carousel,
-    Footer,
+
   },
 
   data() {

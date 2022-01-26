@@ -1,6 +1,5 @@
 <template>
     <div id="event-detail">
-        <Header/>
         <div class="box-v1">
             <div class="container">
                 <div class="flex-w-1">
@@ -82,18 +81,9 @@
                 </div>
             </div>
         </div>
-        <Footer/>
+
     </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-export default {
-    name: "Event",
-    components: {
-        Header,
-        Footer
-    }
-}
 </script>

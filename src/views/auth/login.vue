@@ -70,6 +70,7 @@
 
 <script>
 export default {
+  name: "login",
   data: {},
   methods: {
     logged: function () {
