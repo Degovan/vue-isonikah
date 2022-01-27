@@ -65,7 +65,7 @@ export default {
             </div>
              <div class="wrapper-card">
               <!-- tambahkan data v-for disini -->
-              <div class="card" v-for="events in event">
+              <div class="card" v-for="events in event" v-bind:key="events.id">
                   <!-- note gambar akan terpotong apabila foto yang digunakan berukuran potrait -->
                   <img src="" alt="">
                   <!-- content card -->
@@ -74,21 +74,21 @@ export default {
                       <!-- status event -->
                       <div class="badge-wrap">
                       <!-- Note kasik condition if apabila event nya masih belum dimulai -->
-                      <button class="badge">
+                      <button class="badge" v-if="event.status == 'a'">
                           <fa :icon="['fas', 'stopwatch']" /> <label>Belum dimulai</label>
                       </button>
                       <!-- Note kasik condition if apabila eventnya dimulai -->
-                        <!-- <button class="badge started">
+                        <button class="badge started" v-else-if="event.status == 'b'">
                         <p>Telah dimulai</p>
-                      </button> -->
+                      </button>
                       <!-- Note kasik condition if apabila event nya berbayar -->
-                       <button class="badge paid">
+                       <button class="badge paid" v-else-if="event.status == 'c'">
                           <fa :icon="['fas', 'wallet']" /> <label>Berbayar</label>
                       </button>
                          <!-- Note kasik condition if apabila event nya berbayar -->
-                       <!-- <button class="badge ended">
+                       <button class="badge ended" v-else>
                           <fa :icon="['fas', 'calendar-check']" /> <label>Sudah berakhir</label>
-                      </button> -->
+                      </button>
                       </div>
                       <br>
                       <!-- info waktu dan anggota -->
@@ -203,3 +203,30 @@ export default {
    
     </div>
 </template>
+<script>
+import axios from "axios";
+export default {
+    name: "Event",
+    components: {
+    
+    },
+    data() {
+        return {
+            event: [],
+            errors: []
+        }
+    },
+    mounted() {
+        axios
+            .get('https://spillmoment.degovps.cf/api/events')
+            .then(response => {
+                this.event = response.data.data.events
+                console.log(response.data.data)
+            })
+            .catch(e => {
+                this.errors.push(e)
+            })
+    }
+}
+
+</script>
