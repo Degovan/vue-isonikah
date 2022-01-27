@@ -1,3 +1,33 @@
+<script>
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+import axios from "axios";
+
+export default {
+    name: "Event",
+    components: {
+        Header,
+        Footer
+    },
+    data() {
+        return {
+            event: [],
+            errors: []
+        }
+    },
+    mounted() {
+        axios
+            .get('http://localhost:8000/api/events')
+            .then(response => {
+                this.event = response.data.data.events
+            })
+            .catch(e => {
+                this.errors.push(e)
+            })
+    }
+}
+</script>
+
 <template>
     <div id="event">
         <Header/>
@@ -36,12 +66,12 @@
             </div>
              <div class="wrapper-card">
               <!-- tambahkan data v-for disini -->
-              <div class="card">
+              <div class="card" v-for="events in event">
                   <!-- note gambar akan terpotong apabila foto yang digunakan berukuran potrait -->
                   <img src="" alt="">
                   <!-- content card -->
                   <div class="content-card">
-                      <h2>Membahas Spill Pernikahan</h2>
+                      <h2>{{ events.title }}</h2>
                       <!-- status event -->
                       <div class="badge-wrap">
                       <!-- Note kasik condition if apabila event nya masih belum dimulai -->
@@ -174,15 +204,3 @@
         <Footer/>
     </div>
 </template>
-
-<script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-export default {
-    name: "Event",
-    components: {
-        Header,
-        Footer
-    }
-}
-</script>
