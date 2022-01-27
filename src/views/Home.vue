@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header />
     <!-- ini adalah bagian box 1 -->
     <div class="box-p1">
       <carousel
@@ -506,14 +505,10 @@
         </div>
       </div>
     </div>
-    <Footer />
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
 import carousel from "vue-owl-carousel";
 
 const imgPrev = '<img src="../assets/img/arrow-left.png" />';
@@ -522,8 +517,6 @@ const imgNext = "<img src='../assets/img/arrow-right.png' />";
 export default {
   name: "Home",
   components: {
-    Header,
-    Footer,
     carousel,
   },
 };

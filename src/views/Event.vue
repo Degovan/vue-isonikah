@@ -30,7 +30,6 @@ export default {
 
 <template>
     <div id="event">
-        <Header/>
         <div class="box-v1">
             <div class="container">
                   <div class="title-box">
@@ -201,6 +200,6 @@ export default {
           </div>
             </div>
         </div>
-        <Footer/>
+   
     </div>
 </template>

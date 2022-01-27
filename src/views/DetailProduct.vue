@@ -1,6 +1,6 @@
 <template>
   <div class="detail-product">
-    <Header />
+
     <div class="box-v1">
       <div class="container">
         <div class="wrapper-video">
@@ -92,12 +92,10 @@
 
 <script>
 import Plyr from "plyr";
-import Header from "../components/Header.vue";
 import TabNav from '../components/TabNav.vue';
 import Tab from '../components/Tab.vue';
 export default {
   components: {
-    Header,
     TabNav,
     Tab,
 

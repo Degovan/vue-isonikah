@@ -1,0 +1,25 @@
+#notfound{
+    .box-v1{
+        padding: 30px;
+        height: 400px;
+        h1{
+            margin-top: 3rem;
+            font-family: $poppins;
+        }
+        small{
+            font-family: $poppins;
+            color: grey;
+        }
+        p{
+            font-family: $poppins;
+            color: #333;
+            font-weight: bold;
+        }
+        ul{
+            li{
+                font-family: $poppins;
+                color: #333;
+            }
+        }
+    }
+}
