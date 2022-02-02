@@ -9,7 +9,7 @@ import BajuAdat from '../views/subkategory/Bajuadat.vue'
 import Dekorasi from '../views/subkategory/Dekorasi.vue'
 import AuthLogin from '../views/auth/login.vue'
 import AuthReg from '../views/auth/register.vue'
-// import Api from '../views/Api.vue'
+import Api from '../views/Api.vue'
 import Vendor from '../views/Vendor.vue'
 import Event from '../views/Event.vue'
 import EventDetail from '../views/EventDetail.vue'
@@ -42,12 +42,12 @@ const routes = [
     component: AuthReg,
     meta: { title: 'Daftar | Spillmoment', hideNavigation: true }
   },
-  // {
-  //   path: '/api',
-  //   name: 'Api',
-  //   component: Api,
-  //   meta: { title: 'Spillmoment | API' }
-  // },
+  {
+    path: '/api',
+    name: 'Api',
+    component: Api,
+    meta: { title: 'Spillmoment | API' }
+  },
   {
     path: '/event',
     name: 'Event',
@@ -55,7 +55,7 @@ const routes = [
     meta: { title: 'Event | Spillmoment' }
   },
   {
-    path: '/event|detail',
+    path: '/event-detail',
     name: 'Event|detail',
     component: EventDetail,
     meta: { title: 'Detail Event | Spillmoment' }
@@ -91,7 +91,7 @@ const routes = [
     meta: { title: 'Kategory Dekorasi | Spillmoment' }
   },
   {
-    path: '/detail|product',
+    path: '/detail-product',
     name: 'Detail|Produk',
     component: DetailProduct,
     meta: { title: 'Detail Product | Spillmoment' }

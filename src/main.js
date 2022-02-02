@@ -25,8 +25,15 @@ require('./assets/css/animate.css');
 //   kategroy: SubKategory,
 //   // cart: cartModule
 // });
+Vue.prototype.$endpoint = "https://backend.spillmoment.id";
 
 new Vue({
   router,
+  mounted(){
+  },
   render: function (h) { return h(App) }
 }).$mount('#app')
+
+
+
+

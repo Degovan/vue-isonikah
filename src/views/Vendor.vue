@@ -97,8 +97,9 @@ export default {
   },
 
   mounted() {
+
     axios
-      .get("https://backend.isonikah.id/api/product")
+      .get(`${this.$endpoint}/api/product`)
       .then(response => {
           this.products = response.data.data.product
       })

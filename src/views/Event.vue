@@ -1,33 +1,3 @@
-<script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-import axios from "axios";
-
-export default {
-    name: "Event",
-    components: {
-        Header,
-        Footer
-    },
-    data() {
-        return {
-            event: [],
-            errors: []
-        }
-    },
-    mounted() {
-        axios
-            .get('http://localhost:8000/api/events')
-            .then(response => {
-                this.event = response.data.data.events
-            })
-            .catch(e => {
-                this.errors.push(e)
-            })
-    }
-}
-</script>
-
 <template>
     <div id="event">
         <div class="box-v1">
@@ -74,21 +44,21 @@ export default {
                       <!-- status event -->
                       <div class="badge-wrap">
                       <!-- Note kasik condition if apabila event nya masih belum dimulai -->
-                      <button class="badge" v-if="event.status == 'a'">
+                      <button class="badge" v-if="event.started == 0">
                           <fa :icon="['fas', 'stopwatch']" /> <label>Belum dimulai</label>
                       </button>
                       <!-- Note kasik condition if apabila eventnya dimulai -->
-                        <button class="badge started" v-else-if="event.status == 'b'">
+                        <button class="badge started" v-else>
                         <p>Telah dimulai</p>
                       </button>
                       <!-- Note kasik condition if apabila event nya berbayar -->
-                       <button class="badge paid" v-else-if="event.status == 'c'">
+                      <button class="badge paid" v-if="event.paid == 'paid'">
                           <fa :icon="['fas', 'wallet']" /> <label>Berbayar</label>
                       </button>
-                         <!-- Note kasik condition if apabila event nya berbayar -->
-                       <button class="badge ended" v-else>
-                          <fa :icon="['fas', 'calendar-check']" /> <label>Sudah berakhir</label>
+                       <button class="badge free" v-else>
+                         <label>Gratis</label>
                       </button>
+                         <!-- Note kasik condition if apabila event nya berbayar -->
                       </div>
                       <br>
                       <!-- info waktu dan anggota -->
@@ -105,94 +75,6 @@ export default {
                       <!-- tombol gabung -->
                         <router-link to="">
                   <button type="button" class="btn-event">Gabung Event</button>
-                  </router-link>
-                  </div>
-                
-              </div>
-              <div class="card">
-                  <!-- note gambar akan terpotong apabila foto yang digunakan berukuran potrait -->
-                  <img src="" alt="">
-                  <!-- content card -->
-                  <div class="content-card">
-                      <h2>Membahas Spill Pernikahan</h2>
-                      <!-- status event -->
-                      <div class="badge-wrap">
-                      <!-- Note kasik condition if apabila event nya masih belum dimulai -->
-                      <!-- <button class="badge">
-                          <fa :icon="['fas', 'stopwatch']" /> <label>Belum dimulai</label>
-                      </button> -->
-                      <!-- Note kasik condition if apabila eventnya dimulai -->
-                        <button class="badge started">
-                        <p>Telah dimulai</p>
-                      </button>
-                      <!-- Note kasik condition if apabila event nya berbayar -->
-                       <button class="badge paid">
-                          <fa :icon="['fas', 'wallet']" /> <label>Berbayar</label>
-                      </button>
-                         <!-- Note kasik condition if apabila event nya berbayar -->
-                       <!-- <button class="badge ended">
-                          <fa :icon="['fas', 'calendar-check']" /> <label>Sudah berakhir</label>
-                      </button> -->
-                      </div>
-                      <br>
-                      <!-- info waktu dan anggota -->
-                      <div class="info-tanggal">
-                          <fa :icon="['fas', 'calendar-alt']" /> <label for="">Jumat, 21 januari 2020 </label>
-                      </div><br>
-                       <div class="info-jam">
-                          <fa :icon="['fas', 'clock']" /> <label for="">20.30</label>
-                      </div><br>
-                      <div class="info-anggota">
-                          <fa :icon="['fas', 'users']" /> <label for="">800 orang</label>
-                      </div>
-                      <br>
-                      <!-- tombol gabung -->
-                        <router-link to="">
-                  <button type="button" class="btn-event">Gabung Event</button>
-                  </router-link>
-                  </div>
-                
-              </div>
-              <div class="card">
-                  <!-- note gambar akan terpotong apabila foto yang digunakan berukuran potrait -->
-                  <img src="" alt="">
-                  <!-- content card -->
-                  <div class="content-card">
-                      <h2>Membahas Spill Pernikahan</h2>
-                      <!-- status event -->
-                      <div class="badge-wrap">
-                      <!-- Note kasik condition if apabila event nya masih belum dimulai -->
-                      <!-- <button class="badge">
-                          <fa :icon="['fas', 'stopwatch']" /> <label>Belum dimulai</label>
-                      </button> -->
-                      <!-- Note kasik condition if apabila eventnya dimulai -->
-                        <!-- <button class="badge started">
-                        <p>Telah dimulai</p>
-                      </button> -->
-                      <!-- Note kasik condition if apabila event nya berbayar -->
-                       <!-- <button class="badge paid">
-                          <fa :icon="['fas', 'wallet']" /> <label>Berbayar</label>
-                      </button> -->
-                         <!-- Note kasik condition if apabila event nya berbayar -->
-                       <button class="badge ended">
-                          <fa :icon="['fas', 'calendar-check']" /> <label>Sudah berakhir</label>
-                      </button>
-                      </div>
-                      <br>
-                      <!-- info waktu dan anggota -->
-                      <div class="info-tanggal">
-                          <fa :icon="['fas', 'calendar-alt']" /> <label for="">Jumat, 21 januari 2020 </label>
-                      </div><br>
-                       <div class="info-jam">
-                          <fa :icon="['fas', 'clock']" /> <label for="">20.30</label>
-                      </div><br>
-                      <div class="info-anggota">
-                          <fa :icon="['fas', 'users']" /> <label for="">800 orang</label>
-                      </div>
-                      <br>
-                      <!-- tombol gabung -->
-                        <router-link to="">
-                  <button type="button" class="btn-event">Event Berakhir</button>
                   </router-link>
                   </div>
                 
@@ -217,8 +99,9 @@ export default {
         }
     },
     mounted() {
+        console.log();
         axios
-            .get('https://spillmoment.degovps.cf/api/events')
+            .get(`${this.$endpoint}/api/events`)
             .then(response => {
                 this.event = response.data.data.events
                 console.log(response.data.data)

@@ -49,7 +49,7 @@
                 <p>Jenis kelamin</p>
                 <div class="auth-input-box">
                   <div class="flex-input">
-                    <select name="" id="select-input gender">
+                    <select name="" id="gender">
                       <option value="Pria">Pria</option>
                       <option value="Wanita">Wanita</option>
                     </select>
@@ -77,7 +77,6 @@
                       type="password"
                       name="katasandi"
                       placeholder=""
-                      v-on:keyup="isGood(this.value)"
                       id="passwordInput"
                       required
                     />
@@ -99,7 +98,7 @@
                 <router-link to="/forgot-password"
                   >Lupa kata sandi?</router-link
                 >
-                <button @click="reg">Lanjutkan</button>
+                <button @click="register">Lanjutkan</button>
                 <br /><br />
               </div>
               <p id="hint">
@@ -119,78 +118,84 @@
 import axios from "axios";
 export default {
   name: "register",
-  data: {},
+  data() {
+    return{
+
+    }
+  },
   methods: {
-    isGood: function (password) {
-      var password_strength = document.getElementById("password-text");
+    // isGood: function (password) {
+    //   var password_strength = document.getElementById("password-text");
 
-      //TextBox left blank.
-      if (password.length == 0) {
-        password_strength.innerHTML = "";
-        return;
-      }
+    //   //TextBox left blank.
+    //   if (password.length == 0) {
+    //     password_strength.innerHTML = "";
+    //     return;
+    //   }
 
-      //Regular Expressions.
-      var regex = new Array();
-      regex.push("[A-Z]"); //Uppercase Alphabet.
-      regex.push("[a-z]"); //Lowercase Alphabet.
-      regex.push("[0-9]"); //Digit.
-      regex.push("[$@$!%*#?&]"); //Special Character.
+    //   //Regular Expressions.
+    //   var regex = new Array();
+    //   regex.push("[A-Z]"); //Uppercase Alphabet.
+    //   regex.push("[a-z]"); //Lowercase Alphabet.
+    //   regex.push("[0-9]"); //Digit.
+    //   regex.push("[$@$!%*#?&]"); //Special Character.
 
-      var passed = 0;
+    //   var passed = 0;
 
-      //Validate for each Regular Expression.
-      for (var i = 0; i < regex.length; i++) {
-        if (new RegExp(regex[i]).test(password)) {
-          passed++;
-        }
-      }
+    //   //Validate for each Regular Expression.
+    //   for (var i = 0; i < regex.length; i++) {
+    //     if (new RegExp(regex[i]).test(password)) {
+    //       passed++;
+    //     }
+    //   }
 
-      //Display status.
-      var strength = "";
-      switch (passed) {
-        case 0:
-        case 1:
-        case 2:
-          strength =
-            // "<small class='progress-bar bg-danger' style='width: 40%'>Weak</small>";
-            alert("weak");
-          break;
-        case 3:
-          strength =
-            // "<small class='progress-bar bg-warning' style='width: 60%'>Medium</small>";
-            alert("Medium");
-          break;
-        case 4:
-          strength = alert("Strong");
-          // "<small class='progress-bar bg-success' style='width: 100%'>Strong</small>";
-          break;
-      }
-      password_strength.innerHTML = strength;
-    },
-    reg: function () {
-      var name = document.querySelector("#nama").value;
+    //   //Display status.
+    //   var strength = "";
+    //   switch (passed) {
+    //     case 0:
+    //     case 1:
+    //     case 2:
+    //       strength =
+    //         // "<small class='progress-bar bg-danger' style='width: 40%'>Weak</small>";
+    //         alert("weak");
+    //       break;
+    //     case 3:
+    //       strength =
+    //         // "<small class='progress-bar bg-warning' style='width: 60%'>Medium</small>";
+    //         alert("Medium");
+    //       break;
+    //     case 4:
+    //       strength = alert("Strong");
+    //       // "<small class='progress-bar bg-success' style='width: 100%'>Strong</small>";
+    //       break;
+    //   }
+    //   password_strength.innerHTML = strength;
+    // },
+    register: function () {
+     var name = document.querySelector("#nama").value;
       var email = document.querySelector("#email").value;
       var phone = document.querySelector("#phone").value;
       var password = document.querySelector("#passwordInput").value;
       var gender = document.querySelector("#gender").value;
-      var borndate = document.querySelector("#born_date").value;
+      var born_date = document.querySelector("#born_date").value;
+      console.log(name + email + phone + password + gender + born_date );
+
       const options = {
         method: "POST",
         // ubah url API ke public
-        url: "http://localhost:8000/api/auth/register",
+        url: `${this.$endpoint}/api/auth/register`,
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
         data: {
-          name: name,
-          email: email,
+          name,
+          email,
           photo: "noimage.png",
-          phone: phone,
-          password: password,
-          gender: gender,
-          born_date: borndate,
+          phone,
+          password,
+          gender,
+          born_date,
           role: "user",
         },
       };

@@ -1566,6 +1566,14 @@ a {
 #event .box-v1 .wrapper-card .card .content-card .badge-wrap .paid label {
   color: #333;
 }
+#event .box-v1 .wrapper-card .card .content-card .badge-wrap .free {
+  margin-left: 10px;
+  background-color: green;
+  color: #333;
+}
+#event .box-v1 .wrapper-card .card .content-card .badge-wrap .free label {
+  margin-left: 0;
+}
 #event .box-v1 .wrapper-card .card .content-card .badge-wrap .started {
   background-color: limegreen;
 }
@@ -1673,6 +1681,14 @@ a {
 }
 #event-detail .box-v1 .flex-w-1 .col-flex .body-box .badge-wrap .paid label {
   color: #333;
+}
+#event-detail .box-v1 .flex-w-1 .col-flex .body-box .badge-wrap .free {
+  margin-left: 10px;
+  background-color: green;
+  color: #333;
+}
+#event-detail .box-v1 .flex-w-1 .col-flex .body-box .badge-wrap .free label {
+  margin-left: 0;
 }
 #event-detail .box-v1 .flex-w-1 .col-flex .body-box .badge-wrap .started {
   background-color: limegreen;

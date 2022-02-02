@@ -33,7 +33,7 @@ export default {
 
       const options = {
         method: "POST",
-        url: "https://backend.isonikah.id/api/auth/login",
+        url: `${this.$endpoint}/api/auth/login`,
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -65,7 +65,7 @@ export default {
       var borndate = document.querySelector("#born_date").value;
       const options = {
         method: "POST",
-        url: "https://backend.isonikah.id/api/auth/register",
+        url: `${this.$endpoint}/api/auth/register`,
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
@@ -98,6 +98,8 @@ export default {
         });
     },
   },
-  async mounted() {},
+  async mounted() {
+    
+  },
 };
 </script>

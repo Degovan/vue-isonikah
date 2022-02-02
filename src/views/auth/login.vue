@@ -81,7 +81,7 @@ export default {
         method: "POST",
 
         // ubah url API ke public
-        url: "http://localhost:8000/api/auth/login",
+        url: `${this.$endpoint}/api/auth/login`,
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",

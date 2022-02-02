@@ -99,6 +99,14 @@
                                 color: #333;
                             }
                         }
+                        .free{
+                            margin-left: 10px;
+                            background-color: green;
+                            color: #333;
+                            label{
+                                margin-left: 0;
+                            }
+                        }
                         .started{
                             // margin-left: 10px;
                             background-color: limegreen;
@@ -214,6 +222,14 @@
                             color: #333;
                             label{
                                 color: #333;
+                            }
+                        }
+                        .free{
+                            margin-left: 10px;
+                            background-color: green;
+                            color: #333;
+                            label{
+                                margin-left: 0;
                             }
                         }
                         .started{
